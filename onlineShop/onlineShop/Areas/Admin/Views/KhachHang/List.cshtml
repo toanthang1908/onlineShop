@@ -1,0 +1,77 @@
+﻿@model IEnumerable<onlineShop.Models.EF.KhachHang>
+
+@{
+    ViewBag.Title = "List";
+    Layout = "~/Areas/Admin/Views/Shared/_AdLayout.cshtml";
+}
+
+<h2>Danh sách khách hàng</h2>
+<br />
+<table class="table table-hover" border="1">
+    <tr>
+        <th>
+            Mã KH
+        </th>
+        <th>
+            Họ Tên
+        </th>
+        <th>
+            Tên TK
+        </th>
+        <th>
+            Ngày Sinh
+        </th>
+        <th>
+            Giới Tính
+        </th>
+        <th>
+            Địa Chỉ
+        </th>
+        <th>
+            Email
+        </th>
+        <th>
+            SĐT
+        </th>
+
+        <th>Action</th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.MaKH)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.HoTenK)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TenTKK)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NgaySinhK)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.GioiTinhK)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DiaChiK)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EmailK)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SDTK)
+            </td>
+            <td>
+                @Html.ActionLink("Details", "Details", new { @MaKH = item.MaKH }, new {@class="btn btn-info" }) |
+                @Html.ActionLink("Delete", "Delete", new { @MaKH = item.MaKH }, new { @class = "btn btn-danger" }) |
+                <br />
+                <button class="btn btn-default"><p><a href="/Admin/HoaDon/List?MaKH=@item.MaKH">HoaDon</a></p></button>
+                @*<p><a href="/Admin/HoaDon/List?MaKH=@item.MaKH">HoaDon</a></p>*@
+            </td>
+        </tr>
+    }
+
+</table>

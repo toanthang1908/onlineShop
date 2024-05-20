@@ -1,0 +1,145 @@
+﻿@using onlineShop.Models.EF;
+@model List<SanPham>
+@{
+    ViewBag.Title = "DanhSachSanPham";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div id="content-main">
+    <div class="container">
+        <h3 class="text-center">SẢN PHẨM</h3>
+        <!-- ===== menu ===== -->
+        <div class="menu">
+            <div class="col-sm-3 col3">
+                <!-- categories -->
+                <div id="categories">
+                    <h4><span class="glyphicon glyphicon-minus" aria-hidden="true"></span>DANH MỤC</h4>
+                    @*<div class="tab1">
+                        <ul class="place">
+                            <li class="sort">Tất cả</li>
+                            <li class="by"><img src="/assets/client/image/do.png" alt=""></li>
+                            <div class="clearfix"> </div>
+                        </ul>
+                    </div>*@
+                    <div class="tab2">
+                        <ul class="place">
+                            <li class="sort">Thời Trang Nữ</li>
+                            <li class="by"><img src="/assets/client/image/do.png" alt=""></li>
+                            <div class="clearfix"> </div>
+                        </ul>
+                        <div class="single-bottom">
+                            <ul>
+                                @foreach (var item in ViewBag.PhanLoaiNu)
+                                {
+                                    <li><a href="@Url.Action("DanhSachSanPham", "DanhSachSP", new { @doituong = "Nữ", @MaPL = @item.MaPL})">@item.TenPL</a></li>;
+
+                                }
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="tab3">
+                        <ul class="place">
+                            <li class="sort">Thời Trang Nam</li>
+                            <li class="by"><img src="/assets/client/image/do.png" alt=""></li>
+                            <div class="clearfix"> </div>
+                        </ul>
+                        <div class="single-bottom">
+                            <ul>
+                                @foreach (var item in ViewBag.PhanLoaiNam)
+                                {
+                                    <li><a href="@Url.Action("DanhSachSanPham", "DanhSachSP", new { @doituong = "Nam", @mapl = @item.MaPL})">@item.TenPL</a></li>
+
+                                }
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- categories -->
+
+            </div>
+        </div>
+        <!-- ===== end menu ===== -->
+        <!-- ===== table-items ===== -->
+        <div class="table-items">
+            <div class="col-sm-9 col9">
+                @*<div class="row">
+                    <p style="float: right;">
+                        Sắp xếp theo:
+                        <select>
+                            <option selected="" value="1">mặc định</option>
+                            <option value="2">giá từ thấp đến cao</option>
+                            <option value="3">giá từ cao đến thấp</option>
+                        </select>
+                    </p>
+                </div>*@
+                @{
+                    foreach (var item in Model)
+                    {
+                        <div class="col-md-4">
+                            <a href="#" class="thumbnail">
+                                <img src=@item.Anh alt="@item.TenSP">
+                                <div class="caption-p text-center">
+                                    <p>@item.TenSP</p><br/>
+                                    <p class="">@(item.GiaMoi.HasValue ? item.GiaMoi.Value.ToString("N0") : "Liên hệ") VNĐ</p>
+                                </div>
+                                <div class="btn-buy">
+                                    <input type="button" class="btn btn-success" onclick="location.href='@Url.Action("XemChiTiet", "ChiTietSanPham", new { @MaSP = item.MaSP,@TenSP = item.TenSP  })'" value="XEM CHI TIẾT" />
+                                </div>
+                            </a>
+                        </div> <!-- end 1 items -->
+                    }
+                }
+
+
+            </div>
+        </div>
+        <!-- ===== end table-items ===== -->
+        <!--Phân trang-->
+        @if (ViewBag.TotalPage > 1)
+        {
+            var pageDisplay = (int)ViewBag.MaxPage;
+            int totalPage = (int)ViewBag.TotalPage;
+            int currentPage = ((int)ViewBag.Page);
+
+            // Create numeric links
+            var startPageIndex = Math.Max(1, currentPage - pageDisplay / 2);
+            var endPageIndex = Math.Min(totalPage, currentPage + pageDisplay / 2);
+
+            var link = "/DanhSachSP/DanhSachSanPham?doituong=" + @ViewBag.doituong;
+            <nav>
+                <ul class="pagination">
+                    @if (currentPage > ViewBag.First)
+                    {
+                        <li><a href="@link&page=@ViewBag.First" title="Trang đầu" class="first"><i class="fa fa-angle-double-left"> Trang đầu</i></a></li>
+                        <li>
+                            <a href="@link&page=@ViewBag.Prev" title="Trang trước" class="prev"><i class="fa fa-angle-left">Trang trước</i></a>
+                        </li>
+                    }
+                    @for (int i = startPageIndex; i <= endPageIndex; i++)
+                    {
+                        if (currentPage == i)
+                        {
+
+                            <li> <a href="@link&page=@i" class="active" title="Trang @i">@i</a></li>
+                        }
+                        else
+                        {
+                            <li><a href="@link&page=@i" title="Trang @i" class="pos">@i</a></li>
+                        }
+                    }
+                    @if (currentPage < totalPage)
+                    {
+                        <li><a href="@link&page=@ViewBag.Next" class="next btn btn-secondary" title="Trang sau"><i class="fa fa-angle-right"> Trang sau</i></a></li>
+                        <li> <a href="@link&page=@ViewBag.Last" class="last btn btn-secondary" title="Trang cuối"><i class="fa fa-angle-double-right"> Trang cuối</i></a></li>
+                    }
+
+                </ul>
+            </nav>
+
+        }
+        else
+        {
+            <span>Không có bản ghi nào</span>
+        }
+    </div>
+</div> <!-- /content -->

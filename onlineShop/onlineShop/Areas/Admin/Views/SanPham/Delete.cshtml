@@ -1,0 +1,67 @@
+﻿@model onlineShop.Models.EF.SanPham
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Areas/Admin/Views/Shared/_AdLayout.cshtml";
+}
+
+<h3>Bạn có chắc chắn xoá không?</h3>
+@using (Html.BeginForm("Delete", "SanPham", FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <h4>SanPham</h4>
+        <hr />
+        @Html.ValidationSummary(true)
+        @Html.HiddenFor(model => model.MaSP)
+
+
+        <div class="form-group">
+            <dl class="dl-horizontal">
+                <dt>
+                    @Html.DisplayNameFor(model => model.MaPL)
+                </dt>
+                <dd>
+                    @Html.DisplayFor(model => model.MaPL)
+                </dd>
+                <dt>
+                    @Html.DisplayNameFor(model => model.MaSP)
+                </dt>
+                <dd>
+                    @Html.DisplayFor(model => model.MaSP)
+                </dd>
+                <dt>
+                    @Html.DisplayNameFor(model => model.GioiThieuSP)
+                </dt>
+                <dd>
+                    @Html.DisplayFor(model => model.GioiThieuSP)
+                </dd>
+                <dt>
+                    @Html.DisplayNameFor(model => model.GiaMoi)
+                </dt>
+                <dd>
+                    @Html.DisplayFor(model => model.GiaMoi)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.Soluong)
+                </dt>
+                <dd>
+                    @Html.DisplayFor(model => model.Soluong)
+                </dd>
+
+            </dl>
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <input type="submit" value="Delete" class="btn btn-default" />
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+

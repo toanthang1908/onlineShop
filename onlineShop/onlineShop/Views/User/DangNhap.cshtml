@@ -1,0 +1,46 @@
+﻿@model onlineShop.Models.EF.KhachHang
+@{
+    ViewBag.Title = "Đăng nhập";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h5 style="text-align:center">ĐĂNG NHẬP</h5>
+<h6 style="text-align:center"></h6>
+<hr />
+<div style="margin-left: 580px; margin-bottom:50px">
+
+    @using (Html.BeginForm("DangNhap", "User", FormMethod.Post))
+    {
+        @Html.ValidationSummary(true)
+        <p style="color: red">@ViewBag.ThongBao</p>
+        <div class="editor-label">
+            @Html.LabelFor(model => model.TenTKK)
+        </div>
+        <div class="editor-field">
+            @Html.TextBoxFor(model => model.TenTKK)
+            @Html.ValidationMessageFor(model => model.TenTKK)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.PassK)
+        </div>
+        <div class="editor-field">
+            @Html.PasswordFor(model => model.PassK)
+            @Html.ValidationMessageFor(model => model.PassK)
+        </div>
+
+        <p>
+            <input type="submit" class="btn btn-success" value="Đăng nhập" />
+        </p>
+    @*<form action="/User/DangNhap" method="post">
+        Tên Tài khoản
+        <input type="text" name="TenTKK"><br />
+        Mật khẩu
+        <input type="password" name="PassK"><br />
+        <input type="submit" value="Đăng nhập">
+    </form>*@
+
+    }
+    <span>Bạn chưa có tài khoản?</span>
+    <br />
+    <a href="../User/DangKy">Đăng ký tài khoản</a>
+</div>

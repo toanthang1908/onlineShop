@@ -1,0 +1,113 @@
+﻿@model onlineShop.Models.EF.SanPham
+
+@{
+    ViewBag.Title = "Edit";
+    Layout = "~/Areas/Admin/Views/Shared/_AdLayout.cshtml";
+}
+
+<h2>CHỈNH SỬA</h2>
+
+@using (Html.BeginForm("Edit", "SanPham", FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <h4>SanPham</h4>
+        <hr />
+        @Html.ValidationSummary(true)
+        @Html.HiddenFor(model => model.MaSP)
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.TenSP, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.TenSP)
+                @Html.ValidationMessageFor(model => model.TenSP)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.DoiTuong, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.DoiTuong)
+                @Html.ValidationMessageFor(model => model.DoiTuong)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.GiaCu, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.GiaCu)
+                @Html.ValidationMessageFor(model => model.GiaCu)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.GiaMoi, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.GiaMoi)
+                @Html.ValidationMessageFor(model => model.GiaMoi)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.GioiThieuSP, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.GioiThieuSP)
+                @Html.ValidationMessageFor(model => model.GioiThieuSP)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Soluong, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Soluong)
+                @Html.ValidationMessageFor(model => model.Soluong)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Anh, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                <input id="inpImage" type="text" name="Anh" value="@Model.Anh" />
+                @Html.ValidationMessageFor(model => model.Anh)
+                <a href="#" id="btnUpload" class="btn btn-primary">Load</a>
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.MaPL, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.MaPL)
+                @Html.ValidationMessageFor(model => model.MaPL)
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Save" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "List")
+</div>
+<script src="~/Areas/Admin/ckfinder/ckfinder.js"></script>
+<script src="~/Areas/Admin/ckfinder/plugins/dummy/plugin.js"></script>
+<script src="~/Areas/Admin/ckfinder/plugins/imageresize/plugin.js"></script>
+<script src="~/Areas/Admin/ckfinder/plugins/fileeditor/plugin.js"></script>
+<script type="text/javascript">
+    function Click_BrowseServer() {
+        var finder = new CKFinder();
+        //finder.basePath = '../';
+        finder.selectActionFunction = SetFileField;
+        finder.popup();
+    }
+    function SetFileField(fileUrl) {
+        $('#inpImage').val(fileUrl);
+    }
+    $('#btnUpload').click(function () {
+        Click_BrowseServer();
+    });
+</script>

@@ -1,0 +1,70 @@
+D:\MVC\onlineShop\Model\bin\Debug\Model.dll.config
+D:\MVC\onlineShop\Model\bin\Debug\Model.dll
+D:\MVC\onlineShop\Model\bin\Debug\Model.pdb
+D:\MVC\onlineShop\Model\bin\Debug\EntityFramework.dll
+D:\MVC\onlineShop\Model\bin\Debug\EntityFramework.SqlServer.dll
+D:\MVC\onlineShop\Model\bin\Debug\EntityFramework.xml
+D:\MVC\onlineShop\Model\bin\Debug\EntityFramework.SqlServer.xml
+D:\MVC\onlineShop\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+D:\MVC\onlineShop\Model\obj\Debug\Model.dll
+D:\MVC\onlineShop\Model\obj\Debug\Model.pdb
+D:\BaiTapMVC\MVC\onlineShop\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+D:\BaiTapMVC\MVC\onlineShop\Model\obj\Debug\Model.dll
+D:\BaiTapMVC\MVC\onlineShop\Model\obj\Debug\Model.pdb
+D:\BaiTapMVC\MVC\onlineShop\Model\bin\Debug\Model.dll.config
+D:\BaiTapMVC\MVC\onlineShop\Model\bin\Debug\Model.dll
+D:\BaiTapMVC\MVC\onlineShop\Model\bin\Debug\Model.pdb
+D:\BaiTapMVC\MVC\onlineShop\Model\bin\Debug\EntityFramework.dll
+D:\BaiTapMVC\MVC\onlineShop\Model\bin\Debug\EntityFramework.SqlServer.dll
+D:\BaiTapMVC\MVC\onlineShop\Model\bin\Debug\EntityFramework.xml
+D:\BaiTapMVC\MVC\onlineShop\Model\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\My Documents\Desktop\onlineShop\Model\bin\Debug\Model.dll.config
+C:\Users\My Documents\Desktop\onlineShop\Model\bin\Debug\Model.dll
+C:\Users\My Documents\Desktop\onlineShop\Model\bin\Debug\Model.pdb
+C:\Users\My Documents\Desktop\onlineShop\Model\bin\Debug\EntityFramework.dll
+C:\Users\My Documents\Desktop\onlineShop\Model\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\My Documents\Desktop\onlineShop\Model\bin\Debug\EntityFramework.xml
+C:\Users\My Documents\Desktop\onlineShop\Model\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\My Documents\Desktop\onlineShop\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+C:\Users\My Documents\Desktop\onlineShop\Model\obj\Debug\Model.dll
+C:\Users\My Documents\Desktop\onlineShop\Model\obj\Debug\Model.pdb
+H:\onlineShop\Model\bin\Debug\Model.dll.config
+H:\onlineShop\Model\bin\Debug\Model.dll
+H:\onlineShop\Model\bin\Debug\Model.pdb
+H:\onlineShop\Model\bin\Debug\EntityFramework.dll
+H:\onlineShop\Model\bin\Debug\EntityFramework.SqlServer.dll
+H:\onlineShop\Model\bin\Debug\EntityFramework.xml
+H:\onlineShop\Model\bin\Debug\EntityFramework.SqlServer.xml
+H:\onlineShop\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+H:\onlineShop\Model\obj\Debug\Model.dll
+H:\onlineShop\Model\obj\Debug\Model.pdb
+C:\Users\My Documents\Downloads\onlineShop\Model\bin\Debug\Model.dll.config
+C:\Users\My Documents\Downloads\onlineShop\Model\bin\Debug\Model.dll
+C:\Users\My Documents\Downloads\onlineShop\Model\bin\Debug\Model.pdb
+C:\Users\My Documents\Downloads\onlineShop\Model\bin\Debug\EntityFramework.dll
+C:\Users\My Documents\Downloads\onlineShop\Model\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\My Documents\Downloads\onlineShop\Model\bin\Debug\EntityFramework.xml
+C:\Users\My Documents\Downloads\onlineShop\Model\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\My Documents\Downloads\onlineShop\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+C:\Users\My Documents\Downloads\onlineShop\Model\obj\Debug\Model.dll
+C:\Users\My Documents\Downloads\onlineShop\Model\obj\Debug\Model.pdb
+D:\Webb\onlineShop\Model\bin\Debug\Model.dll.config
+D:\Webb\onlineShop\Model\bin\Debug\Model.dll
+D:\Webb\onlineShop\Model\bin\Debug\Model.pdb
+D:\Webb\onlineShop\Model\bin\Debug\EntityFramework.dll
+D:\Webb\onlineShop\Model\bin\Debug\EntityFramework.SqlServer.dll
+D:\Webb\onlineShop\Model\bin\Debug\EntityFramework.xml
+D:\Webb\onlineShop\Model\bin\Debug\EntityFramework.SqlServer.xml
+D:\Webb\onlineShop\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+D:\Webb\onlineShop\Model\obj\Debug\Model.dll
+D:\Webb\onlineShop\Model\obj\Debug\Model.pdb
+E:\hoc tap\WEB\BaiTap\onlineShop\Model\bin\Debug\Model.dll.config
+E:\hoc tap\WEB\BaiTap\onlineShop\Model\bin\Debug\Model.dll
+E:\hoc tap\WEB\BaiTap\onlineShop\Model\bin\Debug\Model.pdb
+E:\hoc tap\WEB\BaiTap\onlineShop\Model\bin\Debug\EntityFramework.dll
+E:\hoc tap\WEB\BaiTap\onlineShop\Model\bin\Debug\EntityFramework.SqlServer.dll
+E:\hoc tap\WEB\BaiTap\onlineShop\Model\bin\Debug\EntityFramework.xml
+E:\hoc tap\WEB\BaiTap\onlineShop\Model\bin\Debug\EntityFramework.SqlServer.xml
+E:\hoc tap\WEB\BaiTap\onlineShop\Model\obj\Debug\Model.dll
+E:\hoc tap\WEB\BaiTap\onlineShop\Model\obj\Debug\Model.pdb
+E:\hoc tap\WEB\BaiTap\onlineShop\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache

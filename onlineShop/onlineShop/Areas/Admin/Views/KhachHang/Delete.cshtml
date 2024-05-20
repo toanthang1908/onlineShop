@@ -1,0 +1,68 @@
+﻿@model onlineShop.Models.EF.KhachHang
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Areas/Admin/Views/Shared/_AdLayout.cshtml";
+}
+
+
+
+<h3>Bạn có chắc chắn xoá không?</h3>
+
+
+@using (Html.BeginForm("Delete", "KhachHang", FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <h4>Khách Hàng</h4>
+        <hr />
+        @Html.ValidationSummary(true)
+        @Html.HiddenFor(model => model.MaKH)
+
+        <div class="form-group">
+            <dl class="dl-horizontal">
+                <dt>
+                    @Html.DisplayNameFor(model => model.MaKH)
+                </dt>
+                <dd>
+                    @Html.DisplayFor(model => model.MaKH)
+                </dd>
+                <dt>
+                    @Html.DisplayNameFor(model => model.HoTenK)
+                </dt>
+                <dd>
+                    @Html.DisplayFor(model => model.HoTenK)
+                </dd>
+                <dt>
+                    @Html.DisplayNameFor(model => model.NgaySinhK)
+                </dt>
+                <dd>
+                    @Html.DisplayFor(model => model.NgaySinhK)
+
+                </dd>
+                <dt>
+                    @Html.DisplayNameFor(model => model.GioiTinhK)
+                </dt>
+                <dd>
+                    @Html.DisplayFor(model => model.GioiTinhK)
+                </dd>
+                <dt>
+                    @Html.DisplayNameFor(model => model.SDTK)
+                </dt>
+                <dd>
+                    @Html.DisplayFor(model => model.SDTK)
+                </dd>
+            </dl>
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <input type="submit" value="Delete" class="btn btn-danger" />
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "List")
+</div>

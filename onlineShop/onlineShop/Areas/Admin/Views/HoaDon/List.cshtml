@@ -1,0 +1,68 @@
+﻿@model IEnumerable<onlineShop.Models.EF.HoaDon>
+
+@{
+    ViewBag.Title = "List";
+    Layout ="~/Areas/Admin/Views/Shared/_AdLayout.cshtml";
+}
+
+<h2>Danh Sách Hóa Đơn</h2>
+
+<table class=" table table-hover" border="1">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.KhachHang.HoTenK)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.MaHD)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NhanVien.MaNV)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NgayMua)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TinhTrangHD)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TongTien)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.GhiChu)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.KhachHang.HoTenK)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MaHD)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MaNV)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NgayMua)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TinhTrangHD)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TongTien)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.GhiChu)
+            </td>
+            <td>
+                <p><a href="/Admin/HoaDon/Details?MaHD=@item.MaHD">ChiTiet</a></p>
+
+            </td>
+        </tr>
+    }
+
+</table>
+@Html.ActionLink("Back", "List", "KhachHang")

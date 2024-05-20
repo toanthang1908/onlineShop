@@ -1,0 +1,44 @@
+﻿@model IEnumerable<onlineShop.Models.EF.PhanLoai>
+
+@{
+    ViewBag.Title = "List";
+    Layout = "~/Areas/Admin/Views/Shared/_AdLayout.cshtml";
+}
+
+<h2>DANH SÁCH</h2>
+<br />
+<p>
+    @Html.ActionLink("Thêm Phân Loại Mới", "Create", null, new { @class="btn btn-success" })
+</p>
+<br />
+<table class="table" border="1">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.TenPL)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.MaPL)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.MaPL)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TenPL)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { @MaPL = item.MaPL }, new { @class="btn btn-info"}) |
+                @Html.ActionLink("Details", "Details", new { @MaPL = item.MaPL }, new { @class = "btn btn-warning" }) |
+                @Html.ActionLink("Delete", "Delete", new { @MaPL = item.MaPL }, new { @class = "btn btn-danger" }) |
+                <button class="btn btn-default"><a href="/Admin/SanPham/SearchPL?MaPL=@item.MaPL">List Product</a></button>
+                @*<a href="/Admin/SanPham/SearchPL?MaPL=@item.MaPL">List Product</a>*@
+            </td>
+        </tr>
+    }
+
+</table>

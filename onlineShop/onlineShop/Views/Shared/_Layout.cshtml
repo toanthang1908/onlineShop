@@ -1,0 +1,200 @@
+﻿@using onlineShop.Security
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Shop MAI</title>
+
+    <link href="~/assets/client/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="~/assets/client/css/flat-ui.min.css">
+    <link rel="stylesheet" href="~/assets/client/css/font-awesome.min.css">
+    <link rel="stylesheet" href="~/assets/client/css/animate.css">
+    <link href="~/assets/client/css/style.css" rel="stylesheet">
+
+
+</head>
+<body>
+    <div id="header">
+
+        <!-- ===== top-bar for contact, test, tuttorial ===== -->
+        <div class="row top-bar">
+            <ul class="list-inline">
+                <li class="col-xs-3 text-center">
+                    <a href="#lienhe">Liên hệ</a>
+                </li>
+                <li class="col-xs-3 text-center">
+                    <button type="button" data-toggle="modal" data-target="#myModalForTest">KIỂM TRA ĐƠN HÀNG</button>
+                </li>
+                <li class="col-xs-3 text-center">
+                    <a href="#huongdan" class="huong-dan">Hướng dẫn mua hàng</a>
+                </li>
+                <li class="col-xs-3 text-center dropdown">
+                    @{
+                        var user = onlineShop.Security.SessesionPersister.User;
+                    }
+                    @if (user == null)
+                    {
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">
+                            <div class="profile_img">
+                                <div class="clearfix"> User</div>
+                            </div>
+                        </a>
+                        <ul class="dropdown-menu drp-mnu ">
+                            <li> <a href="../User/DangNhap"><i class="fa fa-sign-in"></i> LogIn</a> </li>
+                            <li> <a href="../User/DangKy"><i class="fa fa-"></i> SignIn</a> </li>
+                        </ul>
+                    }
+                    else
+                    {
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">
+                            <div class="profile_img">
+                                <div class="clearfix">@user.TenTKK</div>
+                            </div>
+                        </a>
+                        <ul class="dropdown-menu drp-mnu ">
+                            <li> <a href="../User/Logout"><i class="fa fa-sign-out"></i> LogOut</a> </li>
+                            <li> <a href="../User/DangKy"><i class="fa fa-"></i> SignIn</a> </li>
+                        </ul>
+                    }
+
+                </li>
+
+            </ul>
+        </div>
+        <!-- ===== end top-bar for contact, test, tuttorial ===== -->
+
+        <div class="banner-p">
+            <!-- ===== navbar for logo, list, search,sign in, cart ===== -->
+            <div class="list-bar">
+                <nav class="navbar" role="navigation">
+                    <div class="container-fluid">
+                        <!-- logo and Toggle navigation -->
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#forMobile">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a class="navbar-brand" href="@Url.Action("Index", "Home")"><i class="fa fa-shopping-bag"></i><b> Shop MAI</b></a>
+                        </div>
+                        <!-- end logo and Toggle navigation -->
+
+                        <div class="collapse navbar-collapse" id="forMobile">
+                            <!-- list product categories -->
+                            <ul class="nav navbar-nav navbar-left" style="padding-top: 10px; padding-left: 20px;">
+                                <li>
+                                    <a href="@Url.Action("DanhSachSanPham", "DanhSachSP", new { @doituong = "Nam", @page = 1, @pageSize = 9})"><b>Thời trang nam</b></a>
+                                </li>
+                                <li>
+                                    <a href="@Url.Action("DanhSachSanPham", "DanhSachSP", new { @doituong = "Nữ", @page = 1, @pageSize = 9 })"><b>Thời trang nữ</b></a>
+                                </li>
+                            </ul>
+                            <!-- end list product categories -->
+                            <!-- list for search, cart, sign in -->
+                            <ul class="nav navbar-nav navbar-right" style="padding-top: 10px;">
+                                <li>
+                                    <form action="/DanhSachSP/Search/" method="post">
+                                        <input type="text" name="key" placeholder="Tìm Kiếm" />
+                                        <button type="submit" class="btn-lg"/><i class="fa fa-search"></i>
+                                    </form>
+                                </li>
+                                <li>
+                                    <span>
+                                        @*<button type="button" class="btn-lg"><b>Giỏ hàng</b></button>*@
+                                        <button type="button" class="btn-lg" onclick="window.location.href='@Url.Action("Index", "Cart")'"><b>Giỏ hàng</b></button>
+                                        <i class="fa fa-shopping-cart"> <span class="badge">0</span></i>
+                                    </span>
+                                </li>
+                            </ul>
+                            <!-- end list for search, cart, sign in -->
+                        </div><!-- /.navbar-collapse -->
+                    </div><!-- /.container -->
+                    <!--========== form for search ==========-->
+                    <div class="row">
+                        <div class="col-sm-6 col-sm-offset-3">
+                            <form class="form-group" id="searchForm" style="display:none;">
+                                <div class="input-group">
+                                    <input type="search" class="form-control" placeholder="Bạn đang tìm gì?">
+                                    <span class="input-group-btn">
+                                        <button type="submit" class="btn btn-success" style="border: 2px solid #1abc9c;"><i class="fa fa-search" style="color: #1abc9c;"></i></button>
+                                    </span>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <!--========== end form for search ==========-->
+                </nav>
+            </div>
+            <!-- ===== end navbar for logo, list, search,sign in, cart ===== -->
+
+
+        </div><!-- end banner-p -->
+
+    </div> <!-- end header -->
+    <!--========== modal for test ==========-->
+    <div class="modal fade" id="myModalForTest" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                    <h4 class="modal-title text-center" id="myModalLabel">Kiểm tra đơn hàng</h4>
+                </div>
+                <div class="modal-body">
+                    <form action="">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Nhập mã đơn hàng" tabindex="1">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Nhập email hoặc số điện thoại" tabindex="2">
+                        </div>
+                        <button type="submit" class="btn btn-success btn-block" tabindex="3">Kiểm tra</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--========== end modal for test ==========-->
+    <!--========== modal for login ==========-->
+    <!--========== end modal for login ==========-->
+    @RenderBody()
+
+    <div id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4" id="lienhe">
+                    <h5>Follow us</h5>
+                    <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook-official"></i></a>
+                    <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter-square"></i></a>
+                    <a href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus-square"></i></a>
+                    <a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram"></i></a>
+                    <br><br>
+                    <p>Bản quyển thuộc về nhóm MAI</p>
+                </div>
+
+                <div class="col-md-4 pull-right">
+                    <ul>
+                        <li><a href="/Home/Idex"><b>Trang chủ</b></a></li>
+                        <li><a href="@Url.Action("DanhSachSanPham", "DanhSachSP", new { @doituong = "Nam", @page = 1, @pageSize = 9 })"><b>Thời trang nam</b></a></li>
+                        <li><a href="@Url.Action("DanhSachSanPham", "DanhSachSP", new { @doituong = "Nu", @page=1, @pageSize = 9})"><b>Thời trang nữ</b></a></li>
+                        <li><a href=""><b>Chính sách vận chuyển</b></a></li>
+                        <li><a href="#lienhe"><b>Liên hệ</b></a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+        </div>
+    </div> <!-- /footer -->
+    <a href="#" class="back-to-top">back-to-top</a>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="~/assets/client/js/jquery-1.12.1.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="~/assets/client/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="~/assets/client/js/script-p.js"></script>
+    @RenderSection("jsFooter", required: false)
+</body>
+</html>

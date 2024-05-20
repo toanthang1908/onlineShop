@@ -1,0 +1,85 @@
+﻿@model IEnumerable<onlineShop.Models.EF.NhanVien>
+@{
+    ViewBag.Title = "List";
+    Layout = "~/Areas/Admin/Views/Shared/_AdLayout.cshtml";
+}
+
+<p>
+    @Html.ActionLink("Thêm nhân viên mới", "Create", null, new {@class="btn btn-success" })
+</p>
+<br />
+<table class="table" border="1">
+    <tr>
+        <th>
+            Họ tên
+        </th>
+        <th>
+            Ngày sinh
+        </th>
+        <th>
+            Giới tính
+        </th>
+        <th>
+            Địa chỉ
+        </th>
+        <th>
+            Email
+        </th>
+        <th>
+            SĐT
+        </th>
+        <th>
+            Tên TK
+        </th>
+        <th>
+            Email
+        </th>
+        <th>
+            Cấp
+        </th>
+        <th>
+            Tình trạng
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.HoTen)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NgaySinh)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.GioiTinh)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DiaChi)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Email)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SDT)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TenTK)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Pass)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Cap)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TinhTrang)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { @MaNV = item.MaNV }, new {@class="btn btn-info"}) |
+            @Html.ActionLink("Details", "Details", new { @MaNV = item.MaNV }, new { @class = "btn btn-warning" }) |
+            @Html.ActionLink("Delete", "Delete", new { @MaNV = item.MaNV }, new { @class = "btn btn-danger" })
+        </td>
+    </tr>
+}
+</table>

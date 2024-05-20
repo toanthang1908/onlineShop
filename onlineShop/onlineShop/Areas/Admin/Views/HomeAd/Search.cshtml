@@ -1,0 +1,72 @@
+﻿@model IEnumerable<onlineShop.Models.EF.SanPham>
+
+@{
+    ViewBag.Title = "Search";
+    Layout = "~/Areas/Admin/Views/Shared/_AdLayout.cshtml";
+}
+
+<h2 style="color: #122d70; text-align: center" >KẾT QUẢ</h2>
+<table class="table" border="1">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.PhanLoai.TenPL)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TenSP)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DoiTuong)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.GiaCu)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.GiaMoi)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.GioiThieuSP)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Soluong)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Anh)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.PhanLoai.TenPL)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TenSP)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DoiTuong)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.GiaCu)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.GiaMoi)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.GioiThieuSP)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Soluong)
+        </td>
+        <td>
+            <img src=@item.Anh width="80" height="80">
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.MaSP }) |
+            @Html.ActionLink("Details", "Details", new { id=item.MaSP }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.MaSP })
+        </td>
+    </tr>
+}
+
+</table>

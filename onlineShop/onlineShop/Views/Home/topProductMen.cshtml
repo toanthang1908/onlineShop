@@ -1,0 +1,32 @@
+﻿@using onlineShop.Models.EF;
+@model List<SanPham>
+@{
+    
+    
+    foreach (var item in Model)
+    {
+        <div class="col-md-3">
+            <a href="@Url.Action("XemChiTiet", "ChiTietSanPham", new { @MaSP = item.MaSP, @TenSP = item.TenSP })">
+                <div class="thumbnail ">
+                    <img src= @item.Anh alt="@item.TenSP">
+                    <div class="text-center">
+                        <p>@item.TenSP</p>
+                        <p class="">@item.GiaMoi VNĐ</p>
+                    </div>
+                    <div class="btn-buy">
+                        <input type="button" class="btn btn-success" value="XEM CHI TIẾT" onclick="window.location.href='@Url.Action("XemChiTiet", "ChiTietSanPham", new { @MaSP = item.MaSP, @TenSP = item.TenSP })'" /><b></b>
+                       
+                    </div>
+                </div>
+            </a>
+        </div> <!-- end 1 items -->
+    }
+    
+}
+
+<div class="list-item1">
+    <div class="row sub-item1">
+        
+        
+    </div>
+</div> <!-- end list-item1 -->

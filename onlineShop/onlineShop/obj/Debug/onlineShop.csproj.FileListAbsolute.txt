@@ -1,0 +1,669 @@
+D:\MVC\onlineShop\onlineShop\bin\onlineShop.dll.config
+D:\MVC\onlineShop\onlineShop\bin\onlineShop.dll
+D:\MVC\onlineShop\onlineShop\bin\onlineShop.pdb
+D:\MVC\onlineShop\onlineShop\bin\Antlr3.Runtime.dll
+D:\MVC\onlineShop\onlineShop\bin\EntityFramework.dll
+D:\MVC\onlineShop\onlineShop\bin\EntityFramework.SqlServer.dll
+D:\MVC\onlineShop\onlineShop\bin\Microsoft.AspNet.Identity.Core.dll
+D:\MVC\onlineShop\onlineShop\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\MVC\onlineShop\onlineShop\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\MVC\onlineShop\onlineShop\bin\Microsoft.Owin.dll
+D:\MVC\onlineShop\onlineShop\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\MVC\onlineShop\onlineShop\bin\Microsoft.Owin.Security.Cookies.dll
+D:\MVC\onlineShop\onlineShop\bin\Microsoft.Owin.Security.dll
+D:\MVC\onlineShop\onlineShop\bin\Microsoft.Owin.Security.Facebook.dll
+D:\MVC\onlineShop\onlineShop\bin\Microsoft.Owin.Security.Google.dll
+D:\MVC\onlineShop\onlineShop\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\MVC\onlineShop\onlineShop\bin\Microsoft.Owin.Security.OAuth.dll
+D:\MVC\onlineShop\onlineShop\bin\Microsoft.Owin.Security.Twitter.dll
+D:\MVC\onlineShop\onlineShop\bin\Microsoft.Web.Infrastructure.dll
+D:\MVC\onlineShop\onlineShop\bin\Newtonsoft.Json.dll
+D:\MVC\onlineShop\onlineShop\bin\Owin.dll
+D:\MVC\onlineShop\onlineShop\bin\System.Web.Helpers.dll
+D:\MVC\onlineShop\onlineShop\bin\System.Web.Mvc.dll
+D:\MVC\onlineShop\onlineShop\bin\System.Web.Optimization.dll
+D:\MVC\onlineShop\onlineShop\bin\System.Web.Razor.dll
+D:\MVC\onlineShop\onlineShop\bin\System.Web.WebPages.Deployment.dll
+D:\MVC\onlineShop\onlineShop\bin\System.Web.WebPages.dll
+D:\MVC\onlineShop\onlineShop\bin\System.Web.WebPages.Razor.dll
+D:\MVC\onlineShop\onlineShop\bin\WebGrease.dll
+D:\MVC\onlineShop\onlineShop\bin\System.Web.Helpers.xml
+D:\MVC\onlineShop\onlineShop\bin\System.Web.Mvc.xml
+D:\MVC\onlineShop\onlineShop\bin\System.Web.Optimization.xml
+D:\MVC\onlineShop\onlineShop\bin\System.Web.Razor.xml
+D:\MVC\onlineShop\onlineShop\bin\System.Web.WebPages.xml
+D:\MVC\onlineShop\onlineShop\bin\System.Web.WebPages.Deployment.xml
+D:\MVC\onlineShop\onlineShop\bin\System.Web.WebPages.Razor.xml
+D:\MVC\onlineShop\onlineShop\bin\Newtonsoft.Json.xml
+D:\MVC\onlineShop\onlineShop\bin\Antlr3.Runtime.pdb
+D:\MVC\onlineShop\onlineShop\bin\EntityFramework.xml
+D:\MVC\onlineShop\onlineShop\bin\EntityFramework.SqlServer.xml
+D:\MVC\onlineShop\onlineShop\bin\Microsoft.AspNet.Identity.Core.xml
+D:\MVC\onlineShop\onlineShop\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\MVC\onlineShop\onlineShop\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\MVC\onlineShop\onlineShop\bin\Microsoft.Owin.xml
+D:\MVC\onlineShop\onlineShop\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\MVC\onlineShop\onlineShop\bin\Microsoft.Owin.Security.xml
+D:\MVC\onlineShop\onlineShop\bin\Microsoft.Owin.Security.Facebook.xml
+D:\MVC\onlineShop\onlineShop\bin\Microsoft.Owin.Security.Cookies.xml
+D:\MVC\onlineShop\onlineShop\bin\Microsoft.Owin.Security.OAuth.xml
+D:\MVC\onlineShop\onlineShop\bin\Microsoft.Owin.Security.Google.xml
+D:\MVC\onlineShop\onlineShop\bin\Microsoft.Owin.Security.Twitter.xml
+D:\MVC\onlineShop\onlineShop\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\MVC\onlineShop\onlineShop\obj\Debug\onlineShop.csprojResolveAssemblyReference.cache
+D:\MVC\onlineShop\onlineShop\obj\Debug\onlineShop.dll
+D:\MVC\onlineShop\onlineShop\obj\Debug\onlineShop.pdb
+D:\MVC\onlineShop\onlineShop\bin\Model.dll
+D:\MVC\onlineShop\onlineShop\bin\Model.pdb
+D:\BaiTapMVC\MVC\onlineShop\onlineShop\bin\onlineShop.dll.config
+D:\BaiTapMVC\MVC\onlineShop\onlineShop\bin\onlineShop.dll
+D:\BaiTapMVC\MVC\onlineShop\onlineShop\bin\onlineShop.pdb
+D:\BaiTapMVC\MVC\onlineShop\onlineShop\bin\Antlr3.Runtime.dll
+D:\BaiTapMVC\MVC\onlineShop\onlineShop\bin\EntityFramework.dll
+D:\BaiTapMVC\MVC\onlineShop\onlineShop\bin\EntityFramework.SqlServer.dll
+D:\BaiTapMVC\MVC\onlineShop\onlineShop\bin\Microsoft.AspNet.Identity.Core.dll
+D:\BaiTapMVC\MVC\onlineShop\onlineShop\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\BaiTapMVC\MVC\onlineShop\onlineShop\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\BaiTapMVC\MVC\onlineShop\onlineShop\bin\Microsoft.Owin.dll
+D:\BaiTapMVC\MVC\onlineShop\onlineShop\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\BaiTapMVC\MVC\onlineShop\onlineShop\bin\Microsoft.Owin.Security.Cookies.dll
+D:\BaiTapMVC\MVC\onlineShop\onlineShop\bin\Microsoft.Owin.Security.dll
+D:\BaiTapMVC\MVC\onlineShop\onlineShop\bin\Microsoft.Owin.Security.Facebook.dll
+D:\BaiTapMVC\MVC\onlineShop\onlineShop\bin\Microsoft.Owin.Security.Google.dll
+D:\BaiTapMVC\MVC\onlineShop\onlineShop\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\BaiTapMVC\MVC\onlineShop\onlineShop\bin\Microsoft.Owin.Security.OAuth.dll
+D:\BaiTapMVC\MVC\onlineShop\onlineShop\bin\Microsoft.Owin.Security.Twitter.dll
+D:\BaiTapMVC\MVC\onlineShop\onlineShop\bin\Microsoft.Web.Infrastructure.dll
+D:\BaiTapMVC\MVC\onlineShop\onlineShop\bin\Model.dll
+D:\BaiTapMVC\MVC\onlineShop\onlineShop\bin\Newtonsoft.Json.dll
+D:\BaiTapMVC\MVC\onlineShop\onlineShop\bin\Owin.dll
+D:\BaiTapMVC\MVC\onlineShop\onlineShop\bin\System.Web.Helpers.dll
+D:\BaiTapMVC\MVC\onlineShop\onlineShop\bin\System.Web.Mvc.dll
+D:\BaiTapMVC\MVC\onlineShop\onlineShop\bin\System.Web.Optimization.dll
+D:\BaiTapMVC\MVC\onlineShop\onlineShop\bin\System.Web.Razor.dll
+D:\BaiTapMVC\MVC\onlineShop\onlineShop\bin\System.Web.WebPages.Deployment.dll
+D:\BaiTapMVC\MVC\onlineShop\onlineShop\bin\System.Web.WebPages.dll
+D:\BaiTapMVC\MVC\onlineShop\onlineShop\bin\System.Web.WebPages.Razor.dll
+D:\BaiTapMVC\MVC\onlineShop\onlineShop\bin\WebGrease.dll
+D:\BaiTapMVC\MVC\onlineShop\onlineShop\bin\Model.pdb
+D:\BaiTapMVC\MVC\onlineShop\onlineShop\bin\System.Web.Helpers.xml
+D:\BaiTapMVC\MVC\onlineShop\onlineShop\bin\System.Web.Mvc.xml
+D:\BaiTapMVC\MVC\onlineShop\onlineShop\bin\System.Web.Optimization.xml
+D:\BaiTapMVC\MVC\onlineShop\onlineShop\bin\System.Web.Razor.xml
+D:\BaiTapMVC\MVC\onlineShop\onlineShop\bin\System.Web.WebPages.xml
+D:\BaiTapMVC\MVC\onlineShop\onlineShop\bin\System.Web.WebPages.Deployment.xml
+D:\BaiTapMVC\MVC\onlineShop\onlineShop\bin\System.Web.WebPages.Razor.xml
+D:\BaiTapMVC\MVC\onlineShop\onlineShop\bin\Newtonsoft.Json.xml
+D:\BaiTapMVC\MVC\onlineShop\onlineShop\bin\Antlr3.Runtime.pdb
+D:\BaiTapMVC\MVC\onlineShop\onlineShop\bin\EntityFramework.xml
+D:\BaiTapMVC\MVC\onlineShop\onlineShop\bin\EntityFramework.SqlServer.xml
+D:\BaiTapMVC\MVC\onlineShop\onlineShop\bin\Microsoft.AspNet.Identity.Core.xml
+D:\BaiTapMVC\MVC\onlineShop\onlineShop\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\BaiTapMVC\MVC\onlineShop\onlineShop\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\BaiTapMVC\MVC\onlineShop\onlineShop\bin\Microsoft.Owin.xml
+D:\BaiTapMVC\MVC\onlineShop\onlineShop\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\BaiTapMVC\MVC\onlineShop\onlineShop\bin\Microsoft.Owin.Security.xml
+D:\BaiTapMVC\MVC\onlineShop\onlineShop\bin\Microsoft.Owin.Security.Facebook.xml
+D:\BaiTapMVC\MVC\onlineShop\onlineShop\bin\Microsoft.Owin.Security.Cookies.xml
+D:\BaiTapMVC\MVC\onlineShop\onlineShop\bin\Microsoft.Owin.Security.OAuth.xml
+D:\BaiTapMVC\MVC\onlineShop\onlineShop\bin\Microsoft.Owin.Security.Google.xml
+D:\BaiTapMVC\MVC\onlineShop\onlineShop\bin\Microsoft.Owin.Security.Twitter.xml
+D:\BaiTapMVC\MVC\onlineShop\onlineShop\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\BaiTapMVC\MVC\onlineShop\onlineShop\obj\Debug\onlineShop.csprojResolveAssemblyReference.cache
+D:\BaiTapMVC\MVC\onlineShop\onlineShop\obj\Debug\onlineShop.dll
+D:\BaiTapMVC\MVC\onlineShop\onlineShop\obj\Debug\onlineShop.pdb
+C:\Users\My Documents\Desktop\onlineShop\onlineShop\bin\onlineShop.dll.config
+C:\Users\My Documents\Desktop\onlineShop\onlineShop\bin\onlineShop.dll
+C:\Users\My Documents\Desktop\onlineShop\onlineShop\bin\onlineShop.pdb
+C:\Users\My Documents\Desktop\onlineShop\onlineShop\bin\Antlr3.Runtime.dll
+C:\Users\My Documents\Desktop\onlineShop\onlineShop\bin\EntityFramework.dll
+C:\Users\My Documents\Desktop\onlineShop\onlineShop\bin\EntityFramework.SqlServer.dll
+C:\Users\My Documents\Desktop\onlineShop\onlineShop\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\My Documents\Desktop\onlineShop\onlineShop\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\My Documents\Desktop\onlineShop\onlineShop\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\My Documents\Desktop\onlineShop\onlineShop\bin\Microsoft.Owin.dll
+C:\Users\My Documents\Desktop\onlineShop\onlineShop\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\My Documents\Desktop\onlineShop\onlineShop\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\My Documents\Desktop\onlineShop\onlineShop\bin\Microsoft.Owin.Security.dll
+C:\Users\My Documents\Desktop\onlineShop\onlineShop\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\My Documents\Desktop\onlineShop\onlineShop\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\My Documents\Desktop\onlineShop\onlineShop\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\My Documents\Desktop\onlineShop\onlineShop\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\My Documents\Desktop\onlineShop\onlineShop\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\My Documents\Desktop\onlineShop\onlineShop\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\My Documents\Desktop\onlineShop\onlineShop\bin\Model.dll
+C:\Users\My Documents\Desktop\onlineShop\onlineShop\bin\Newtonsoft.Json.dll
+C:\Users\My Documents\Desktop\onlineShop\onlineShop\bin\Owin.dll
+C:\Users\My Documents\Desktop\onlineShop\onlineShop\bin\System.Web.Helpers.dll
+C:\Users\My Documents\Desktop\onlineShop\onlineShop\bin\System.Web.Mvc.dll
+C:\Users\My Documents\Desktop\onlineShop\onlineShop\bin\System.Web.Optimization.dll
+C:\Users\My Documents\Desktop\onlineShop\onlineShop\bin\System.Web.Razor.dll
+C:\Users\My Documents\Desktop\onlineShop\onlineShop\bin\System.Web.WebPages.Deployment.dll
+C:\Users\My Documents\Desktop\onlineShop\onlineShop\bin\System.Web.WebPages.dll
+C:\Users\My Documents\Desktop\onlineShop\onlineShop\bin\System.Web.WebPages.Razor.dll
+C:\Users\My Documents\Desktop\onlineShop\onlineShop\bin\WebGrease.dll
+C:\Users\My Documents\Desktop\onlineShop\onlineShop\bin\Model.pdb
+C:\Users\My Documents\Desktop\onlineShop\onlineShop\bin\System.Web.Helpers.xml
+C:\Users\My Documents\Desktop\onlineShop\onlineShop\bin\System.Web.Mvc.xml
+C:\Users\My Documents\Desktop\onlineShop\onlineShop\bin\System.Web.Optimization.xml
+C:\Users\My Documents\Desktop\onlineShop\onlineShop\bin\System.Web.Razor.xml
+C:\Users\My Documents\Desktop\onlineShop\onlineShop\bin\System.Web.WebPages.xml
+C:\Users\My Documents\Desktop\onlineShop\onlineShop\bin\System.Web.WebPages.Deployment.xml
+C:\Users\My Documents\Desktop\onlineShop\onlineShop\bin\System.Web.WebPages.Razor.xml
+C:\Users\My Documents\Desktop\onlineShop\onlineShop\bin\Newtonsoft.Json.xml
+C:\Users\My Documents\Desktop\onlineShop\onlineShop\bin\Antlr3.Runtime.pdb
+C:\Users\My Documents\Desktop\onlineShop\onlineShop\bin\EntityFramework.xml
+C:\Users\My Documents\Desktop\onlineShop\onlineShop\bin\EntityFramework.SqlServer.xml
+C:\Users\My Documents\Desktop\onlineShop\onlineShop\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\My Documents\Desktop\onlineShop\onlineShop\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\My Documents\Desktop\onlineShop\onlineShop\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\My Documents\Desktop\onlineShop\onlineShop\bin\Microsoft.Owin.xml
+C:\Users\My Documents\Desktop\onlineShop\onlineShop\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\My Documents\Desktop\onlineShop\onlineShop\bin\Microsoft.Owin.Security.xml
+C:\Users\My Documents\Desktop\onlineShop\onlineShop\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\My Documents\Desktop\onlineShop\onlineShop\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\My Documents\Desktop\onlineShop\onlineShop\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\My Documents\Desktop\onlineShop\onlineShop\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\My Documents\Desktop\onlineShop\onlineShop\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\My Documents\Desktop\onlineShop\onlineShop\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\My Documents\Desktop\onlineShop\onlineShop\obj\Debug\onlineShop.csprojResolveAssemblyReference.cache
+C:\Users\My Documents\Desktop\onlineShop\onlineShop\obj\Debug\onlineShop.dll
+C:\Users\My Documents\Desktop\onlineShop\onlineShop\obj\Debug\onlineShop.pdb
+H:\onlineShop\onlineShop\bin\onlineShop.dll.config
+H:\onlineShop\onlineShop\bin\onlineShop.dll
+H:\onlineShop\onlineShop\bin\onlineShop.pdb
+H:\onlineShop\onlineShop\bin\Antlr3.Runtime.dll
+H:\onlineShop\onlineShop\bin\EntityFramework.dll
+H:\onlineShop\onlineShop\bin\EntityFramework.SqlServer.dll
+H:\onlineShop\onlineShop\bin\Microsoft.AspNet.Identity.Core.dll
+H:\onlineShop\onlineShop\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+H:\onlineShop\onlineShop\bin\Microsoft.AspNet.Identity.Owin.dll
+H:\onlineShop\onlineShop\bin\Microsoft.Owin.dll
+H:\onlineShop\onlineShop\bin\Microsoft.Owin.Host.SystemWeb.dll
+H:\onlineShop\onlineShop\bin\Microsoft.Owin.Security.Cookies.dll
+H:\onlineShop\onlineShop\bin\Microsoft.Owin.Security.dll
+H:\onlineShop\onlineShop\bin\Microsoft.Owin.Security.Facebook.dll
+H:\onlineShop\onlineShop\bin\Microsoft.Owin.Security.Google.dll
+H:\onlineShop\onlineShop\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+H:\onlineShop\onlineShop\bin\Microsoft.Owin.Security.OAuth.dll
+H:\onlineShop\onlineShop\bin\Microsoft.Owin.Security.Twitter.dll
+H:\onlineShop\onlineShop\bin\Microsoft.Web.Infrastructure.dll
+H:\onlineShop\onlineShop\bin\Model.dll
+H:\onlineShop\onlineShop\bin\Newtonsoft.Json.dll
+H:\onlineShop\onlineShop\bin\Owin.dll
+H:\onlineShop\onlineShop\bin\System.Web.Helpers.dll
+H:\onlineShop\onlineShop\bin\System.Web.Mvc.dll
+H:\onlineShop\onlineShop\bin\System.Web.Optimization.dll
+H:\onlineShop\onlineShop\bin\System.Web.Razor.dll
+H:\onlineShop\onlineShop\bin\System.Web.WebPages.Deployment.dll
+H:\onlineShop\onlineShop\bin\System.Web.WebPages.dll
+H:\onlineShop\onlineShop\bin\System.Web.WebPages.Razor.dll
+H:\onlineShop\onlineShop\bin\WebGrease.dll
+H:\onlineShop\onlineShop\bin\Model.pdb
+H:\onlineShop\onlineShop\bin\System.Web.Helpers.xml
+H:\onlineShop\onlineShop\bin\System.Web.Mvc.xml
+H:\onlineShop\onlineShop\bin\System.Web.Optimization.xml
+H:\onlineShop\onlineShop\bin\System.Web.Razor.xml
+H:\onlineShop\onlineShop\bin\System.Web.WebPages.xml
+H:\onlineShop\onlineShop\bin\System.Web.WebPages.Deployment.xml
+H:\onlineShop\onlineShop\bin\System.Web.WebPages.Razor.xml
+H:\onlineShop\onlineShop\bin\Newtonsoft.Json.xml
+H:\onlineShop\onlineShop\bin\Antlr3.Runtime.pdb
+H:\onlineShop\onlineShop\bin\EntityFramework.xml
+H:\onlineShop\onlineShop\bin\EntityFramework.SqlServer.xml
+H:\onlineShop\onlineShop\bin\Microsoft.AspNet.Identity.Core.xml
+H:\onlineShop\onlineShop\bin\Microsoft.AspNet.Identity.Owin.xml
+H:\onlineShop\onlineShop\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+H:\onlineShop\onlineShop\bin\Microsoft.Owin.xml
+H:\onlineShop\onlineShop\bin\Microsoft.Owin.Host.SystemWeb.xml
+H:\onlineShop\onlineShop\bin\Microsoft.Owin.Security.xml
+H:\onlineShop\onlineShop\bin\Microsoft.Owin.Security.Facebook.xml
+H:\onlineShop\onlineShop\bin\Microsoft.Owin.Security.Cookies.xml
+H:\onlineShop\onlineShop\bin\Microsoft.Owin.Security.OAuth.xml
+H:\onlineShop\onlineShop\bin\Microsoft.Owin.Security.Google.xml
+H:\onlineShop\onlineShop\bin\Microsoft.Owin.Security.Twitter.xml
+H:\onlineShop\onlineShop\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+H:\onlineShop\onlineShop\obj\Debug\onlineShop.csprojResolveAssemblyReference.cache
+H:\onlineShop\onlineShop\obj\Debug\onlineShop.dll
+H:\onlineShop\onlineShop\obj\Debug\onlineShop.pdb
+C:\Users\My Documents\Downloads\onlineShop\onlineShop\bin\onlineShop.dll.config
+C:\Users\My Documents\Downloads\onlineShop\onlineShop\bin\onlineShop.dll
+C:\Users\My Documents\Downloads\onlineShop\onlineShop\bin\onlineShop.pdb
+C:\Users\My Documents\Downloads\onlineShop\onlineShop\bin\Antlr3.Runtime.dll
+C:\Users\My Documents\Downloads\onlineShop\onlineShop\bin\EntityFramework.dll
+C:\Users\My Documents\Downloads\onlineShop\onlineShop\bin\EntityFramework.SqlServer.dll
+C:\Users\My Documents\Downloads\onlineShop\onlineShop\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\My Documents\Downloads\onlineShop\onlineShop\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\My Documents\Downloads\onlineShop\onlineShop\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\My Documents\Downloads\onlineShop\onlineShop\bin\Microsoft.Owin.dll
+C:\Users\My Documents\Downloads\onlineShop\onlineShop\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\My Documents\Downloads\onlineShop\onlineShop\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\My Documents\Downloads\onlineShop\onlineShop\bin\Microsoft.Owin.Security.dll
+C:\Users\My Documents\Downloads\onlineShop\onlineShop\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\My Documents\Downloads\onlineShop\onlineShop\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\My Documents\Downloads\onlineShop\onlineShop\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\My Documents\Downloads\onlineShop\onlineShop\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\My Documents\Downloads\onlineShop\onlineShop\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\My Documents\Downloads\onlineShop\onlineShop\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\My Documents\Downloads\onlineShop\onlineShop\bin\Model.dll
+C:\Users\My Documents\Downloads\onlineShop\onlineShop\bin\Newtonsoft.Json.dll
+C:\Users\My Documents\Downloads\onlineShop\onlineShop\bin\Owin.dll
+C:\Users\My Documents\Downloads\onlineShop\onlineShop\bin\System.Web.Helpers.dll
+C:\Users\My Documents\Downloads\onlineShop\onlineShop\bin\System.Web.Mvc.dll
+C:\Users\My Documents\Downloads\onlineShop\onlineShop\bin\System.Web.Optimization.dll
+C:\Users\My Documents\Downloads\onlineShop\onlineShop\bin\System.Web.Razor.dll
+C:\Users\My Documents\Downloads\onlineShop\onlineShop\bin\System.Web.WebPages.Deployment.dll
+C:\Users\My Documents\Downloads\onlineShop\onlineShop\bin\System.Web.WebPages.dll
+C:\Users\My Documents\Downloads\onlineShop\onlineShop\bin\System.Web.WebPages.Razor.dll
+C:\Users\My Documents\Downloads\onlineShop\onlineShop\bin\WebGrease.dll
+C:\Users\My Documents\Downloads\onlineShop\onlineShop\bin\Model.pdb
+C:\Users\My Documents\Downloads\onlineShop\onlineShop\bin\System.Web.Helpers.xml
+C:\Users\My Documents\Downloads\onlineShop\onlineShop\bin\System.Web.Mvc.xml
+C:\Users\My Documents\Downloads\onlineShop\onlineShop\bin\System.Web.Optimization.xml
+C:\Users\My Documents\Downloads\onlineShop\onlineShop\bin\System.Web.Razor.xml
+C:\Users\My Documents\Downloads\onlineShop\onlineShop\bin\System.Web.WebPages.xml
+C:\Users\My Documents\Downloads\onlineShop\onlineShop\bin\System.Web.WebPages.Deployment.xml
+C:\Users\My Documents\Downloads\onlineShop\onlineShop\bin\System.Web.WebPages.Razor.xml
+C:\Users\My Documents\Downloads\onlineShop\onlineShop\bin\Newtonsoft.Json.xml
+C:\Users\My Documents\Downloads\onlineShop\onlineShop\bin\Antlr3.Runtime.pdb
+C:\Users\My Documents\Downloads\onlineShop\onlineShop\bin\EntityFramework.xml
+C:\Users\My Documents\Downloads\onlineShop\onlineShop\bin\EntityFramework.SqlServer.xml
+C:\Users\My Documents\Downloads\onlineShop\onlineShop\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\My Documents\Downloads\onlineShop\onlineShop\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\My Documents\Downloads\onlineShop\onlineShop\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\My Documents\Downloads\onlineShop\onlineShop\bin\Microsoft.Owin.xml
+C:\Users\My Documents\Downloads\onlineShop\onlineShop\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\My Documents\Downloads\onlineShop\onlineShop\bin\Microsoft.Owin.Security.xml
+C:\Users\My Documents\Downloads\onlineShop\onlineShop\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\My Documents\Downloads\onlineShop\onlineShop\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\My Documents\Downloads\onlineShop\onlineShop\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\My Documents\Downloads\onlineShop\onlineShop\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\My Documents\Downloads\onlineShop\onlineShop\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\My Documents\Downloads\onlineShop\onlineShop\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\My Documents\Downloads\onlineShop\onlineShop\obj\Debug\onlineShop.csprojResolveAssemblyReference.cache
+C:\Users\My Documents\Downloads\onlineShop\onlineShop\obj\Debug\onlineShop.dll
+C:\Users\My Documents\Downloads\onlineShop\onlineShop\obj\Debug\onlineShop.pdb
+D:\Webb\onlineShop\onlineShop\bin\onlineShop.dll.config
+D:\Webb\onlineShop\onlineShop\bin\onlineShop.dll
+D:\Webb\onlineShop\onlineShop\bin\onlineShop.pdb
+D:\Webb\onlineShop\onlineShop\bin\Antlr3.Runtime.dll
+D:\Webb\onlineShop\onlineShop\bin\EntityFramework.dll
+D:\Webb\onlineShop\onlineShop\bin\EntityFramework.SqlServer.dll
+D:\Webb\onlineShop\onlineShop\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Webb\onlineShop\onlineShop\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Webb\onlineShop\onlineShop\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Webb\onlineShop\onlineShop\bin\Microsoft.Owin.dll
+D:\Webb\onlineShop\onlineShop\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Webb\onlineShop\onlineShop\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Webb\onlineShop\onlineShop\bin\Microsoft.Owin.Security.dll
+D:\Webb\onlineShop\onlineShop\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Webb\onlineShop\onlineShop\bin\Microsoft.Owin.Security.Google.dll
+D:\Webb\onlineShop\onlineShop\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Webb\onlineShop\onlineShop\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Webb\onlineShop\onlineShop\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Webb\onlineShop\onlineShop\bin\Microsoft.Web.Infrastructure.dll
+D:\Webb\onlineShop\onlineShop\bin\Newtonsoft.Json.dll
+D:\Webb\onlineShop\onlineShop\bin\Owin.dll
+D:\Webb\onlineShop\onlineShop\bin\System.Web.Helpers.dll
+D:\Webb\onlineShop\onlineShop\bin\System.Web.Mvc.dll
+D:\Webb\onlineShop\onlineShop\bin\System.Web.Optimization.dll
+D:\Webb\onlineShop\onlineShop\bin\System.Web.Razor.dll
+D:\Webb\onlineShop\onlineShop\bin\System.Web.WebPages.Deployment.dll
+D:\Webb\onlineShop\onlineShop\bin\System.Web.WebPages.dll
+D:\Webb\onlineShop\onlineShop\bin\System.Web.WebPages.Razor.dll
+D:\Webb\onlineShop\onlineShop\bin\WebGrease.dll
+D:\Webb\onlineShop\onlineShop\bin\System.Web.Helpers.xml
+D:\Webb\onlineShop\onlineShop\bin\System.Web.Mvc.xml
+D:\Webb\onlineShop\onlineShop\bin\System.Web.Optimization.xml
+D:\Webb\onlineShop\onlineShop\bin\System.Web.Razor.xml
+D:\Webb\onlineShop\onlineShop\bin\System.Web.WebPages.xml
+D:\Webb\onlineShop\onlineShop\bin\System.Web.WebPages.Deployment.xml
+D:\Webb\onlineShop\onlineShop\bin\System.Web.WebPages.Razor.xml
+D:\Webb\onlineShop\onlineShop\bin\Newtonsoft.Json.xml
+D:\Webb\onlineShop\onlineShop\bin\Antlr3.Runtime.pdb
+D:\Webb\onlineShop\onlineShop\bin\EntityFramework.xml
+D:\Webb\onlineShop\onlineShop\bin\EntityFramework.SqlServer.xml
+D:\Webb\onlineShop\onlineShop\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Webb\onlineShop\onlineShop\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Webb\onlineShop\onlineShop\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Webb\onlineShop\onlineShop\bin\Microsoft.Owin.xml
+D:\Webb\onlineShop\onlineShop\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Webb\onlineShop\onlineShop\bin\Microsoft.Owin.Security.xml
+D:\Webb\onlineShop\onlineShop\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Webb\onlineShop\onlineShop\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Webb\onlineShop\onlineShop\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Webb\onlineShop\onlineShop\bin\Microsoft.Owin.Security.Google.xml
+D:\Webb\onlineShop\onlineShop\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Webb\onlineShop\onlineShop\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Webb\onlineShop\onlineShop\obj\Debug\onlineShop.csprojResolveAssemblyReference.cache
+D:\Webb\onlineShop\onlineShop\obj\Debug\onlineShop.dll
+D:\Webb\onlineShop\onlineShop\obj\Debug\onlineShop.pdb
+E:\hoc tap\WEB\BaiTap\onlineShop\onlineShop\bin\onlineShop.dll.config
+E:\hoc tap\WEB\BaiTap\onlineShop\onlineShop\bin\onlineShop.dll
+E:\hoc tap\WEB\BaiTap\onlineShop\onlineShop\bin\onlineShop.pdb
+E:\hoc tap\WEB\BaiTap\onlineShop\onlineShop\bin\Antlr3.Runtime.dll
+E:\hoc tap\WEB\BaiTap\onlineShop\onlineShop\bin\EntityFramework.dll
+E:\hoc tap\WEB\BaiTap\onlineShop\onlineShop\bin\EntityFramework.SqlServer.dll
+E:\hoc tap\WEB\BaiTap\onlineShop\onlineShop\bin\Microsoft.AspNet.Identity.Core.dll
+E:\hoc tap\WEB\BaiTap\onlineShop\onlineShop\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\hoc tap\WEB\BaiTap\onlineShop\onlineShop\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\hoc tap\WEB\BaiTap\onlineShop\onlineShop\bin\Microsoft.Owin.dll
+E:\hoc tap\WEB\BaiTap\onlineShop\onlineShop\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\hoc tap\WEB\BaiTap\onlineShop\onlineShop\bin\Microsoft.Owin.Security.Cookies.dll
+E:\hoc tap\WEB\BaiTap\onlineShop\onlineShop\bin\Microsoft.Owin.Security.dll
+E:\hoc tap\WEB\BaiTap\onlineShop\onlineShop\bin\Microsoft.Owin.Security.Facebook.dll
+E:\hoc tap\WEB\BaiTap\onlineShop\onlineShop\bin\Microsoft.Owin.Security.Google.dll
+E:\hoc tap\WEB\BaiTap\onlineShop\onlineShop\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\hoc tap\WEB\BaiTap\onlineShop\onlineShop\bin\Microsoft.Owin.Security.OAuth.dll
+E:\hoc tap\WEB\BaiTap\onlineShop\onlineShop\bin\Microsoft.Owin.Security.Twitter.dll
+E:\hoc tap\WEB\BaiTap\onlineShop\onlineShop\bin\Microsoft.Web.Infrastructure.dll
+E:\hoc tap\WEB\BaiTap\onlineShop\onlineShop\bin\Newtonsoft.Json.dll
+E:\hoc tap\WEB\BaiTap\onlineShop\onlineShop\bin\Owin.dll
+E:\hoc tap\WEB\BaiTap\onlineShop\onlineShop\bin\System.Web.Helpers.dll
+E:\hoc tap\WEB\BaiTap\onlineShop\onlineShop\bin\System.Web.Mvc.dll
+E:\hoc tap\WEB\BaiTap\onlineShop\onlineShop\bin\System.Web.Optimization.dll
+E:\hoc tap\WEB\BaiTap\onlineShop\onlineShop\bin\System.Web.Razor.dll
+E:\hoc tap\WEB\BaiTap\onlineShop\onlineShop\bin\System.Web.WebPages.Deployment.dll
+E:\hoc tap\WEB\BaiTap\onlineShop\onlineShop\bin\System.Web.WebPages.dll
+E:\hoc tap\WEB\BaiTap\onlineShop\onlineShop\bin\System.Web.WebPages.Razor.dll
+E:\hoc tap\WEB\BaiTap\onlineShop\onlineShop\bin\WebGrease.dll
+E:\hoc tap\WEB\BaiTap\onlineShop\onlineShop\bin\System.Web.Helpers.xml
+E:\hoc tap\WEB\BaiTap\onlineShop\onlineShop\bin\System.Web.Mvc.xml
+E:\hoc tap\WEB\BaiTap\onlineShop\onlineShop\bin\System.Web.Optimization.xml
+E:\hoc tap\WEB\BaiTap\onlineShop\onlineShop\bin\System.Web.Razor.xml
+E:\hoc tap\WEB\BaiTap\onlineShop\onlineShop\bin\System.Web.WebPages.xml
+E:\hoc tap\WEB\BaiTap\onlineShop\onlineShop\bin\System.Web.WebPages.Deployment.xml
+E:\hoc tap\WEB\BaiTap\onlineShop\onlineShop\bin\System.Web.WebPages.Razor.xml
+E:\hoc tap\WEB\BaiTap\onlineShop\onlineShop\bin\Newtonsoft.Json.xml
+E:\hoc tap\WEB\BaiTap\onlineShop\onlineShop\bin\Antlr3.Runtime.pdb
+E:\hoc tap\WEB\BaiTap\onlineShop\onlineShop\bin\EntityFramework.xml
+E:\hoc tap\WEB\BaiTap\onlineShop\onlineShop\bin\EntityFramework.SqlServer.xml
+E:\hoc tap\WEB\BaiTap\onlineShop\onlineShop\bin\Microsoft.AspNet.Identity.Core.xml
+E:\hoc tap\WEB\BaiTap\onlineShop\onlineShop\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\hoc tap\WEB\BaiTap\onlineShop\onlineShop\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\hoc tap\WEB\BaiTap\onlineShop\onlineShop\bin\Microsoft.Owin.xml
+E:\hoc tap\WEB\BaiTap\onlineShop\onlineShop\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\hoc tap\WEB\BaiTap\onlineShop\onlineShop\bin\Microsoft.Owin.Security.xml
+E:\hoc tap\WEB\BaiTap\onlineShop\onlineShop\bin\Microsoft.Owin.Security.Facebook.xml
+E:\hoc tap\WEB\BaiTap\onlineShop\onlineShop\bin\Microsoft.Owin.Security.Cookies.xml
+E:\hoc tap\WEB\BaiTap\onlineShop\onlineShop\bin\Microsoft.Owin.Security.OAuth.xml
+E:\hoc tap\WEB\BaiTap\onlineShop\onlineShop\bin\Microsoft.Owin.Security.Google.xml
+E:\hoc tap\WEB\BaiTap\onlineShop\onlineShop\bin\Microsoft.Owin.Security.Twitter.xml
+E:\hoc tap\WEB\BaiTap\onlineShop\onlineShop\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\hoc tap\WEB\BaiTap\onlineShop\onlineShop\obj\Debug\onlineShop.dll
+E:\hoc tap\WEB\BaiTap\onlineShop\onlineShop\obj\Debug\onlineShop.pdb
+E:\hoc tap\WEB\BaiTap\onlineShop\onlineShop\bin\CKFinder.dll
+E:\hoc tap\WEB\BaiTap\onlineShop\onlineShop\bin\CKFinder_FileEditor.dll
+E:\hoc tap\WEB\BaiTap\onlineShop\onlineShop\bin\CKFinder_ImageResize.dll
+E:\hoc tap\WEB\BaiTap\onlineShop\onlineShop\bin\CKFinder_Watermark.dll
+E:\hoc tap\WEB\BaiTap\onlineShop\onlineShop\bin\CKFinder.pdb
+E:\hoc tap\WEB\BaiTap\onlineShop\onlineShop\bin\CKFinder_FileEditor.pdb
+E:\hoc tap\WEB\BaiTap\onlineShop\onlineShop\bin\CKFinder_ImageResize.pdb
+E:\hoc tap\WEB\BaiTap\onlineShop\onlineShop\bin\CKFinder_Watermark.pdb
+E:\hoc tap\WEB\BaiTap\onlineShop\onlineShop\obj\Debug\onlineShop.csprojResolveAssemblyReference.cache
+D:\Webb\onlineShop\onlineShop\bin\CKFinder.dll
+D:\Webb\onlineShop\onlineShop\bin\CKFinder_FileEditor.dll
+D:\Webb\onlineShop\onlineShop\bin\CKFinder_ImageResize.dll
+D:\Webb\onlineShop\onlineShop\bin\CKFinder_Watermark.dll
+D:\Webb\onlineShop\onlineShop\bin\CKFinder.pdb
+D:\Webb\onlineShop\onlineShop\bin\CKFinder_FileEditor.pdb
+D:\Webb\onlineShop\onlineShop\bin\CKFinder_ImageResize.pdb
+D:\Webb\onlineShop\onlineShop\bin\CKFinder_Watermark.pdb
+E:\Project test\BTL_CNWeb_Huong_Cuc\onlineShop\onlineShop\bin\onlineShop.dll.config
+E:\Project test\BTL_CNWeb_Huong_Cuc\onlineShop\onlineShop\bin\onlineShop.dll
+E:\Project test\BTL_CNWeb_Huong_Cuc\onlineShop\onlineShop\bin\onlineShop.pdb
+E:\Project test\BTL_CNWeb_Huong_Cuc\onlineShop\onlineShop\bin\Antlr3.Runtime.dll
+E:\Project test\BTL_CNWeb_Huong_Cuc\onlineShop\onlineShop\bin\CKFinder.dll
+E:\Project test\BTL_CNWeb_Huong_Cuc\onlineShop\onlineShop\bin\CKFinder_FileEditor.dll
+E:\Project test\BTL_CNWeb_Huong_Cuc\onlineShop\onlineShop\bin\CKFinder_ImageResize.dll
+E:\Project test\BTL_CNWeb_Huong_Cuc\onlineShop\onlineShop\bin\CKFinder_Watermark.dll
+E:\Project test\BTL_CNWeb_Huong_Cuc\onlineShop\onlineShop\bin\EntityFramework.dll
+E:\Project test\BTL_CNWeb_Huong_Cuc\onlineShop\onlineShop\bin\EntityFramework.SqlServer.dll
+E:\Project test\BTL_CNWeb_Huong_Cuc\onlineShop\onlineShop\bin\Microsoft.AspNet.Identity.Core.dll
+E:\Project test\BTL_CNWeb_Huong_Cuc\onlineShop\onlineShop\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Project test\BTL_CNWeb_Huong_Cuc\onlineShop\onlineShop\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\Project test\BTL_CNWeb_Huong_Cuc\onlineShop\onlineShop\bin\Microsoft.Owin.dll
+E:\Project test\BTL_CNWeb_Huong_Cuc\onlineShop\onlineShop\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\Project test\BTL_CNWeb_Huong_Cuc\onlineShop\onlineShop\bin\Microsoft.Owin.Security.Cookies.dll
+E:\Project test\BTL_CNWeb_Huong_Cuc\onlineShop\onlineShop\bin\Microsoft.Owin.Security.dll
+E:\Project test\BTL_CNWeb_Huong_Cuc\onlineShop\onlineShop\bin\Microsoft.Owin.Security.Facebook.dll
+E:\Project test\BTL_CNWeb_Huong_Cuc\onlineShop\onlineShop\bin\Microsoft.Owin.Security.Google.dll
+E:\Project test\BTL_CNWeb_Huong_Cuc\onlineShop\onlineShop\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\Project test\BTL_CNWeb_Huong_Cuc\onlineShop\onlineShop\bin\Microsoft.Owin.Security.OAuth.dll
+E:\Project test\BTL_CNWeb_Huong_Cuc\onlineShop\onlineShop\bin\Microsoft.Owin.Security.Twitter.dll
+E:\Project test\BTL_CNWeb_Huong_Cuc\onlineShop\onlineShop\bin\Microsoft.Web.Infrastructure.dll
+E:\Project test\BTL_CNWeb_Huong_Cuc\onlineShop\onlineShop\bin\Newtonsoft.Json.dll
+E:\Project test\BTL_CNWeb_Huong_Cuc\onlineShop\onlineShop\bin\Owin.dll
+E:\Project test\BTL_CNWeb_Huong_Cuc\onlineShop\onlineShop\bin\System.Web.Helpers.dll
+E:\Project test\BTL_CNWeb_Huong_Cuc\onlineShop\onlineShop\bin\System.Web.Mvc.dll
+E:\Project test\BTL_CNWeb_Huong_Cuc\onlineShop\onlineShop\bin\System.Web.Optimization.dll
+E:\Project test\BTL_CNWeb_Huong_Cuc\onlineShop\onlineShop\bin\System.Web.Razor.dll
+E:\Project test\BTL_CNWeb_Huong_Cuc\onlineShop\onlineShop\bin\System.Web.WebPages.Deployment.dll
+E:\Project test\BTL_CNWeb_Huong_Cuc\onlineShop\onlineShop\bin\System.Web.WebPages.dll
+E:\Project test\BTL_CNWeb_Huong_Cuc\onlineShop\onlineShop\bin\System.Web.WebPages.Razor.dll
+E:\Project test\BTL_CNWeb_Huong_Cuc\onlineShop\onlineShop\bin\WebGrease.dll
+E:\Project test\BTL_CNWeb_Huong_Cuc\onlineShop\onlineShop\bin\CKFinder.pdb
+E:\Project test\BTL_CNWeb_Huong_Cuc\onlineShop\onlineShop\bin\CKFinder_FileEditor.pdb
+E:\Project test\BTL_CNWeb_Huong_Cuc\onlineShop\onlineShop\bin\CKFinder_ImageResize.pdb
+E:\Project test\BTL_CNWeb_Huong_Cuc\onlineShop\onlineShop\bin\CKFinder_Watermark.pdb
+E:\Project test\BTL_CNWeb_Huong_Cuc\onlineShop\onlineShop\bin\System.Web.Helpers.xml
+E:\Project test\BTL_CNWeb_Huong_Cuc\onlineShop\onlineShop\bin\System.Web.Mvc.xml
+E:\Project test\BTL_CNWeb_Huong_Cuc\onlineShop\onlineShop\bin\System.Web.Optimization.xml
+E:\Project test\BTL_CNWeb_Huong_Cuc\onlineShop\onlineShop\bin\System.Web.Razor.xml
+E:\Project test\BTL_CNWeb_Huong_Cuc\onlineShop\onlineShop\bin\System.Web.WebPages.xml
+E:\Project test\BTL_CNWeb_Huong_Cuc\onlineShop\onlineShop\bin\System.Web.WebPages.Deployment.xml
+E:\Project test\BTL_CNWeb_Huong_Cuc\onlineShop\onlineShop\bin\System.Web.WebPages.Razor.xml
+E:\Project test\BTL_CNWeb_Huong_Cuc\onlineShop\onlineShop\bin\Newtonsoft.Json.xml
+E:\Project test\BTL_CNWeb_Huong_Cuc\onlineShop\onlineShop\bin\Antlr3.Runtime.pdb
+E:\Project test\BTL_CNWeb_Huong_Cuc\onlineShop\onlineShop\bin\EntityFramework.xml
+E:\Project test\BTL_CNWeb_Huong_Cuc\onlineShop\onlineShop\bin\EntityFramework.SqlServer.xml
+E:\Project test\BTL_CNWeb_Huong_Cuc\onlineShop\onlineShop\bin\Microsoft.AspNet.Identity.Core.xml
+E:\Project test\BTL_CNWeb_Huong_Cuc\onlineShop\onlineShop\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\Project test\BTL_CNWeb_Huong_Cuc\onlineShop\onlineShop\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Project test\BTL_CNWeb_Huong_Cuc\onlineShop\onlineShop\bin\Microsoft.Owin.xml
+E:\Project test\BTL_CNWeb_Huong_Cuc\onlineShop\onlineShop\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\Project test\BTL_CNWeb_Huong_Cuc\onlineShop\onlineShop\bin\Microsoft.Owin.Security.xml
+E:\Project test\BTL_CNWeb_Huong_Cuc\onlineShop\onlineShop\bin\Microsoft.Owin.Security.Facebook.xml
+E:\Project test\BTL_CNWeb_Huong_Cuc\onlineShop\onlineShop\bin\Microsoft.Owin.Security.Cookies.xml
+E:\Project test\BTL_CNWeb_Huong_Cuc\onlineShop\onlineShop\bin\Microsoft.Owin.Security.OAuth.xml
+E:\Project test\BTL_CNWeb_Huong_Cuc\onlineShop\onlineShop\bin\Microsoft.Owin.Security.Google.xml
+E:\Project test\BTL_CNWeb_Huong_Cuc\onlineShop\onlineShop\bin\Microsoft.Owin.Security.Twitter.xml
+E:\Project test\BTL_CNWeb_Huong_Cuc\onlineShop\onlineShop\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\Project test\BTL_CNWeb_Huong_Cuc\onlineShop\onlineShop\obj\Debug\onlineShop.csprojResolveAssemblyReference.cache
+E:\Project test\BTL_CNWeb_Huong_Cuc\onlineShop\onlineShop\obj\Debug\onlineShop.dll
+E:\Project test\BTL_CNWeb_Huong_Cuc\onlineShop\onlineShop\obj\Debug\onlineShop.pdb
+C:\Users\Administrator\Downloads\OnlineShop_Full_Database\onlineShop\onlineShop\bin\onlineShop.dll.config
+C:\Users\Administrator\Downloads\OnlineShop_Full_Database\onlineShop\onlineShop\bin\onlineShop.dll
+C:\Users\Administrator\Downloads\OnlineShop_Full_Database\onlineShop\onlineShop\bin\onlineShop.pdb
+C:\Users\Administrator\Downloads\OnlineShop_Full_Database\onlineShop\onlineShop\bin\Antlr3.Runtime.dll
+C:\Users\Administrator\Downloads\OnlineShop_Full_Database\onlineShop\onlineShop\bin\CKFinder.dll
+C:\Users\Administrator\Downloads\OnlineShop_Full_Database\onlineShop\onlineShop\bin\CKFinder_FileEditor.dll
+C:\Users\Administrator\Downloads\OnlineShop_Full_Database\onlineShop\onlineShop\bin\CKFinder_ImageResize.dll
+C:\Users\Administrator\Downloads\OnlineShop_Full_Database\onlineShop\onlineShop\bin\CKFinder_Watermark.dll
+C:\Users\Administrator\Downloads\OnlineShop_Full_Database\onlineShop\onlineShop\bin\EntityFramework.dll
+C:\Users\Administrator\Downloads\OnlineShop_Full_Database\onlineShop\onlineShop\bin\EntityFramework.SqlServer.dll
+C:\Users\Administrator\Downloads\OnlineShop_Full_Database\onlineShop\onlineShop\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Administrator\Downloads\OnlineShop_Full_Database\onlineShop\onlineShop\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Administrator\Downloads\OnlineShop_Full_Database\onlineShop\onlineShop\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Administrator\Downloads\OnlineShop_Full_Database\onlineShop\onlineShop\bin\Microsoft.Owin.dll
+C:\Users\Administrator\Downloads\OnlineShop_Full_Database\onlineShop\onlineShop\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Administrator\Downloads\OnlineShop_Full_Database\onlineShop\onlineShop\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Administrator\Downloads\OnlineShop_Full_Database\onlineShop\onlineShop\bin\Microsoft.Owin.Security.dll
+C:\Users\Administrator\Downloads\OnlineShop_Full_Database\onlineShop\onlineShop\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Administrator\Downloads\OnlineShop_Full_Database\onlineShop\onlineShop\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Administrator\Downloads\OnlineShop_Full_Database\onlineShop\onlineShop\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Administrator\Downloads\OnlineShop_Full_Database\onlineShop\onlineShop\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Administrator\Downloads\OnlineShop_Full_Database\onlineShop\onlineShop\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Administrator\Downloads\OnlineShop_Full_Database\onlineShop\onlineShop\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Administrator\Downloads\OnlineShop_Full_Database\onlineShop\onlineShop\bin\Newtonsoft.Json.dll
+C:\Users\Administrator\Downloads\OnlineShop_Full_Database\onlineShop\onlineShop\bin\Owin.dll
+C:\Users\Administrator\Downloads\OnlineShop_Full_Database\onlineShop\onlineShop\bin\System.Web.Helpers.dll
+C:\Users\Administrator\Downloads\OnlineShop_Full_Database\onlineShop\onlineShop\bin\System.Web.Mvc.dll
+C:\Users\Administrator\Downloads\OnlineShop_Full_Database\onlineShop\onlineShop\bin\System.Web.Optimization.dll
+C:\Users\Administrator\Downloads\OnlineShop_Full_Database\onlineShop\onlineShop\bin\System.Web.Razor.dll
+C:\Users\Administrator\Downloads\OnlineShop_Full_Database\onlineShop\onlineShop\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Administrator\Downloads\OnlineShop_Full_Database\onlineShop\onlineShop\bin\System.Web.WebPages.dll
+C:\Users\Administrator\Downloads\OnlineShop_Full_Database\onlineShop\onlineShop\bin\System.Web.WebPages.Razor.dll
+C:\Users\Administrator\Downloads\OnlineShop_Full_Database\onlineShop\onlineShop\bin\WebGrease.dll
+C:\Users\Administrator\Downloads\OnlineShop_Full_Database\onlineShop\onlineShop\bin\CKFinder.pdb
+C:\Users\Administrator\Downloads\OnlineShop_Full_Database\onlineShop\onlineShop\bin\CKFinder_FileEditor.pdb
+C:\Users\Administrator\Downloads\OnlineShop_Full_Database\onlineShop\onlineShop\bin\CKFinder_ImageResize.pdb
+C:\Users\Administrator\Downloads\OnlineShop_Full_Database\onlineShop\onlineShop\bin\CKFinder_Watermark.pdb
+C:\Users\Administrator\Downloads\OnlineShop_Full_Database\onlineShop\onlineShop\bin\System.Web.Helpers.xml
+C:\Users\Administrator\Downloads\OnlineShop_Full_Database\onlineShop\onlineShop\bin\System.Web.Mvc.xml
+C:\Users\Administrator\Downloads\OnlineShop_Full_Database\onlineShop\onlineShop\bin\System.Web.Optimization.xml
+C:\Users\Administrator\Downloads\OnlineShop_Full_Database\onlineShop\onlineShop\bin\System.Web.Razor.xml
+C:\Users\Administrator\Downloads\OnlineShop_Full_Database\onlineShop\onlineShop\bin\System.Web.WebPages.xml
+C:\Users\Administrator\Downloads\OnlineShop_Full_Database\onlineShop\onlineShop\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Administrator\Downloads\OnlineShop_Full_Database\onlineShop\onlineShop\bin\System.Web.WebPages.Razor.xml
+C:\Users\Administrator\Downloads\OnlineShop_Full_Database\onlineShop\onlineShop\bin\Newtonsoft.Json.xml
+C:\Users\Administrator\Downloads\OnlineShop_Full_Database\onlineShop\onlineShop\bin\Antlr3.Runtime.pdb
+C:\Users\Administrator\Downloads\OnlineShop_Full_Database\onlineShop\onlineShop\bin\EntityFramework.xml
+C:\Users\Administrator\Downloads\OnlineShop_Full_Database\onlineShop\onlineShop\bin\EntityFramework.SqlServer.xml
+C:\Users\Administrator\Downloads\OnlineShop_Full_Database\onlineShop\onlineShop\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Administrator\Downloads\OnlineShop_Full_Database\onlineShop\onlineShop\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Administrator\Downloads\OnlineShop_Full_Database\onlineShop\onlineShop\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Administrator\Downloads\OnlineShop_Full_Database\onlineShop\onlineShop\bin\Microsoft.Owin.xml
+C:\Users\Administrator\Downloads\OnlineShop_Full_Database\onlineShop\onlineShop\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Administrator\Downloads\OnlineShop_Full_Database\onlineShop\onlineShop\bin\Microsoft.Owin.Security.xml
+C:\Users\Administrator\Downloads\OnlineShop_Full_Database\onlineShop\onlineShop\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Administrator\Downloads\OnlineShop_Full_Database\onlineShop\onlineShop\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Administrator\Downloads\OnlineShop_Full_Database\onlineShop\onlineShop\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Administrator\Downloads\OnlineShop_Full_Database\onlineShop\onlineShop\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Administrator\Downloads\OnlineShop_Full_Database\onlineShop\onlineShop\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Administrator\Downloads\OnlineShop_Full_Database\onlineShop\onlineShop\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Administrator\Downloads\OnlineShop_Full_Database\onlineShop\onlineShop\obj\Debug\onlineShop.csproj.AssemblyReference.cache
+C:\Users\Administrator\Downloads\OnlineShop_Full_Database\onlineShop\onlineShop\obj\Debug\onlineShop.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Downloads\OnlineShop_Full_Database\onlineShop\onlineShop\obj\Debug\onlineShop.csproj.Up2Date
+C:\Users\Administrator\Downloads\OnlineShop_Full_Database\onlineShop\onlineShop\obj\Debug\onlineShop.dll
+C:\Users\Administrator\Downloads\OnlineShop_Full_Database\onlineShop\onlineShop\obj\Debug\onlineShop.pdb
+C:\Users\Administrator\Downloads\web\OnlineShop_Full_Database\onlineShop\onlineShop\bin\onlineShop.dll.config
+C:\Users\Administrator\Downloads\web\OnlineShop_Full_Database\onlineShop\onlineShop\bin\onlineShop.dll
+C:\Users\Administrator\Downloads\web\OnlineShop_Full_Database\onlineShop\onlineShop\bin\onlineShop.pdb
+C:\Users\Administrator\Downloads\web\OnlineShop_Full_Database\onlineShop\onlineShop\bin\Antlr3.Runtime.dll
+C:\Users\Administrator\Downloads\web\OnlineShop_Full_Database\onlineShop\onlineShop\bin\CKFinder.dll
+C:\Users\Administrator\Downloads\web\OnlineShop_Full_Database\onlineShop\onlineShop\bin\CKFinder_FileEditor.dll
+C:\Users\Administrator\Downloads\web\OnlineShop_Full_Database\onlineShop\onlineShop\bin\CKFinder_ImageResize.dll
+C:\Users\Administrator\Downloads\web\OnlineShop_Full_Database\onlineShop\onlineShop\bin\CKFinder_Watermark.dll
+C:\Users\Administrator\Downloads\web\OnlineShop_Full_Database\onlineShop\onlineShop\bin\EntityFramework.dll
+C:\Users\Administrator\Downloads\web\OnlineShop_Full_Database\onlineShop\onlineShop\bin\EntityFramework.SqlServer.dll
+C:\Users\Administrator\Downloads\web\OnlineShop_Full_Database\onlineShop\onlineShop\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Administrator\Downloads\web\OnlineShop_Full_Database\onlineShop\onlineShop\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Administrator\Downloads\web\OnlineShop_Full_Database\onlineShop\onlineShop\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Administrator\Downloads\web\OnlineShop_Full_Database\onlineShop\onlineShop\bin\Microsoft.Owin.dll
+C:\Users\Administrator\Downloads\web\OnlineShop_Full_Database\onlineShop\onlineShop\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Administrator\Downloads\web\OnlineShop_Full_Database\onlineShop\onlineShop\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Administrator\Downloads\web\OnlineShop_Full_Database\onlineShop\onlineShop\bin\Microsoft.Owin.Security.dll
+C:\Users\Administrator\Downloads\web\OnlineShop_Full_Database\onlineShop\onlineShop\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Administrator\Downloads\web\OnlineShop_Full_Database\onlineShop\onlineShop\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Administrator\Downloads\web\OnlineShop_Full_Database\onlineShop\onlineShop\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Administrator\Downloads\web\OnlineShop_Full_Database\onlineShop\onlineShop\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Administrator\Downloads\web\OnlineShop_Full_Database\onlineShop\onlineShop\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Administrator\Downloads\web\OnlineShop_Full_Database\onlineShop\onlineShop\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Administrator\Downloads\web\OnlineShop_Full_Database\onlineShop\onlineShop\bin\Newtonsoft.Json.dll
+C:\Users\Administrator\Downloads\web\OnlineShop_Full_Database\onlineShop\onlineShop\bin\Owin.dll
+C:\Users\Administrator\Downloads\web\OnlineShop_Full_Database\onlineShop\onlineShop\bin\System.Web.Helpers.dll
+C:\Users\Administrator\Downloads\web\OnlineShop_Full_Database\onlineShop\onlineShop\bin\System.Web.Mvc.dll
+C:\Users\Administrator\Downloads\web\OnlineShop_Full_Database\onlineShop\onlineShop\bin\System.Web.Optimization.dll
+C:\Users\Administrator\Downloads\web\OnlineShop_Full_Database\onlineShop\onlineShop\bin\System.Web.Razor.dll
+C:\Users\Administrator\Downloads\web\OnlineShop_Full_Database\onlineShop\onlineShop\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Administrator\Downloads\web\OnlineShop_Full_Database\onlineShop\onlineShop\bin\System.Web.WebPages.dll
+C:\Users\Administrator\Downloads\web\OnlineShop_Full_Database\onlineShop\onlineShop\bin\System.Web.WebPages.Razor.dll
+C:\Users\Administrator\Downloads\web\OnlineShop_Full_Database\onlineShop\onlineShop\bin\WebGrease.dll
+C:\Users\Administrator\Downloads\web\OnlineShop_Full_Database\onlineShop\onlineShop\bin\CKFinder.pdb
+C:\Users\Administrator\Downloads\web\OnlineShop_Full_Database\onlineShop\onlineShop\bin\CKFinder_FileEditor.pdb
+C:\Users\Administrator\Downloads\web\OnlineShop_Full_Database\onlineShop\onlineShop\bin\CKFinder_ImageResize.pdb
+C:\Users\Administrator\Downloads\web\OnlineShop_Full_Database\onlineShop\onlineShop\bin\CKFinder_Watermark.pdb
+C:\Users\Administrator\Downloads\web\OnlineShop_Full_Database\onlineShop\onlineShop\bin\System.Web.Helpers.xml
+C:\Users\Administrator\Downloads\web\OnlineShop_Full_Database\onlineShop\onlineShop\bin\System.Web.Mvc.xml
+C:\Users\Administrator\Downloads\web\OnlineShop_Full_Database\onlineShop\onlineShop\bin\System.Web.Optimization.xml
+C:\Users\Administrator\Downloads\web\OnlineShop_Full_Database\onlineShop\onlineShop\bin\System.Web.Razor.xml
+C:\Users\Administrator\Downloads\web\OnlineShop_Full_Database\onlineShop\onlineShop\bin\System.Web.WebPages.xml
+C:\Users\Administrator\Downloads\web\OnlineShop_Full_Database\onlineShop\onlineShop\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Administrator\Downloads\web\OnlineShop_Full_Database\onlineShop\onlineShop\bin\System.Web.WebPages.Razor.xml
+C:\Users\Administrator\Downloads\web\OnlineShop_Full_Database\onlineShop\onlineShop\bin\Newtonsoft.Json.xml
+C:\Users\Administrator\Downloads\web\OnlineShop_Full_Database\onlineShop\onlineShop\bin\Antlr3.Runtime.pdb
+C:\Users\Administrator\Downloads\web\OnlineShop_Full_Database\onlineShop\onlineShop\bin\EntityFramework.xml
+C:\Users\Administrator\Downloads\web\OnlineShop_Full_Database\onlineShop\onlineShop\bin\EntityFramework.SqlServer.xml
+C:\Users\Administrator\Downloads\web\OnlineShop_Full_Database\onlineShop\onlineShop\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Administrator\Downloads\web\OnlineShop_Full_Database\onlineShop\onlineShop\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Administrator\Downloads\web\OnlineShop_Full_Database\onlineShop\onlineShop\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Administrator\Downloads\web\OnlineShop_Full_Database\onlineShop\onlineShop\bin\Microsoft.Owin.xml
+C:\Users\Administrator\Downloads\web\OnlineShop_Full_Database\onlineShop\onlineShop\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Administrator\Downloads\web\OnlineShop_Full_Database\onlineShop\onlineShop\bin\Microsoft.Owin.Security.xml
+C:\Users\Administrator\Downloads\web\OnlineShop_Full_Database\onlineShop\onlineShop\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Administrator\Downloads\web\OnlineShop_Full_Database\onlineShop\onlineShop\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Administrator\Downloads\web\OnlineShop_Full_Database\onlineShop\onlineShop\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Administrator\Downloads\web\OnlineShop_Full_Database\onlineShop\onlineShop\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Administrator\Downloads\web\OnlineShop_Full_Database\onlineShop\onlineShop\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Administrator\Downloads\web\OnlineShop_Full_Database\onlineShop\onlineShop\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Administrator\Downloads\web\OnlineShop_Full_Database\onlineShop\onlineShop\obj\Debug\onlineShop.csproj.AssemblyReference.cache
+C:\Users\Administrator\Downloads\web\OnlineShop_Full_Database\onlineShop\onlineShop\obj\Debug\onlineShop.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Downloads\web\OnlineShop_Full_Database\onlineShop\onlineShop\obj\Debug\onlineShop.csproj.Up2Date
+C:\Users\Administrator\Downloads\web\OnlineShop_Full_Database\onlineShop\onlineShop\obj\Debug\onlineShop.dll
+C:\Users\Administrator\Downloads\web\OnlineShop_Full_Database\onlineShop\onlineShop\obj\Debug\onlineShop.pdb
+C:\Users\Administrator\Downloads\web\OnlineShop\onlineShop\onlineShop\bin\onlineShop.dll.config
+C:\Users\Administrator\Downloads\web\OnlineShop\onlineShop\onlineShop\bin\onlineShop.dll
+C:\Users\Administrator\Downloads\web\OnlineShop\onlineShop\onlineShop\bin\onlineShop.pdb
+C:\Users\Administrator\Downloads\web\OnlineShop\onlineShop\onlineShop\bin\Antlr3.Runtime.dll
+C:\Users\Administrator\Downloads\web\OnlineShop\onlineShop\onlineShop\bin\CKFinder.dll
+C:\Users\Administrator\Downloads\web\OnlineShop\onlineShop\onlineShop\bin\CKFinder_FileEditor.dll
+C:\Users\Administrator\Downloads\web\OnlineShop\onlineShop\onlineShop\bin\CKFinder_ImageResize.dll
+C:\Users\Administrator\Downloads\web\OnlineShop\onlineShop\onlineShop\bin\CKFinder_Watermark.dll
+C:\Users\Administrator\Downloads\web\OnlineShop\onlineShop\onlineShop\bin\EntityFramework.dll
+C:\Users\Administrator\Downloads\web\OnlineShop\onlineShop\onlineShop\bin\EntityFramework.SqlServer.dll
+C:\Users\Administrator\Downloads\web\OnlineShop\onlineShop\onlineShop\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Administrator\Downloads\web\OnlineShop\onlineShop\onlineShop\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Administrator\Downloads\web\OnlineShop\onlineShop\onlineShop\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Administrator\Downloads\web\OnlineShop\onlineShop\onlineShop\bin\Microsoft.Owin.dll
+C:\Users\Administrator\Downloads\web\OnlineShop\onlineShop\onlineShop\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Administrator\Downloads\web\OnlineShop\onlineShop\onlineShop\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Administrator\Downloads\web\OnlineShop\onlineShop\onlineShop\bin\Microsoft.Owin.Security.dll
+C:\Users\Administrator\Downloads\web\OnlineShop\onlineShop\onlineShop\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Administrator\Downloads\web\OnlineShop\onlineShop\onlineShop\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Administrator\Downloads\web\OnlineShop\onlineShop\onlineShop\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Administrator\Downloads\web\OnlineShop\onlineShop\onlineShop\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Administrator\Downloads\web\OnlineShop\onlineShop\onlineShop\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Administrator\Downloads\web\OnlineShop\onlineShop\onlineShop\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Administrator\Downloads\web\OnlineShop\onlineShop\onlineShop\bin\Newtonsoft.Json.dll
+C:\Users\Administrator\Downloads\web\OnlineShop\onlineShop\onlineShop\bin\Owin.dll
+C:\Users\Administrator\Downloads\web\OnlineShop\onlineShop\onlineShop\bin\System.Web.Helpers.dll
+C:\Users\Administrator\Downloads\web\OnlineShop\onlineShop\onlineShop\bin\System.Web.Mvc.dll
+C:\Users\Administrator\Downloads\web\OnlineShop\onlineShop\onlineShop\bin\System.Web.Optimization.dll
+C:\Users\Administrator\Downloads\web\OnlineShop\onlineShop\onlineShop\bin\System.Web.Razor.dll
+C:\Users\Administrator\Downloads\web\OnlineShop\onlineShop\onlineShop\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Administrator\Downloads\web\OnlineShop\onlineShop\onlineShop\bin\System.Web.WebPages.dll
+C:\Users\Administrator\Downloads\web\OnlineShop\onlineShop\onlineShop\bin\System.Web.WebPages.Razor.dll
+C:\Users\Administrator\Downloads\web\OnlineShop\onlineShop\onlineShop\bin\WebGrease.dll
+C:\Users\Administrator\Downloads\web\OnlineShop\onlineShop\onlineShop\bin\CKFinder.pdb
+C:\Users\Administrator\Downloads\web\OnlineShop\onlineShop\onlineShop\bin\CKFinder_FileEditor.pdb
+C:\Users\Administrator\Downloads\web\OnlineShop\onlineShop\onlineShop\bin\CKFinder_ImageResize.pdb
+C:\Users\Administrator\Downloads\web\OnlineShop\onlineShop\onlineShop\bin\CKFinder_Watermark.pdb
+C:\Users\Administrator\Downloads\web\OnlineShop\onlineShop\onlineShop\bin\System.Web.Helpers.xml
+C:\Users\Administrator\Downloads\web\OnlineShop\onlineShop\onlineShop\bin\System.Web.Mvc.xml
+C:\Users\Administrator\Downloads\web\OnlineShop\onlineShop\onlineShop\bin\System.Web.Optimization.xml
+C:\Users\Administrator\Downloads\web\OnlineShop\onlineShop\onlineShop\bin\System.Web.Razor.xml
+C:\Users\Administrator\Downloads\web\OnlineShop\onlineShop\onlineShop\bin\System.Web.WebPages.xml
+C:\Users\Administrator\Downloads\web\OnlineShop\onlineShop\onlineShop\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Administrator\Downloads\web\OnlineShop\onlineShop\onlineShop\bin\System.Web.WebPages.Razor.xml
+C:\Users\Administrator\Downloads\web\OnlineShop\onlineShop\onlineShop\bin\Newtonsoft.Json.xml
+C:\Users\Administrator\Downloads\web\OnlineShop\onlineShop\onlineShop\bin\Antlr3.Runtime.pdb
+C:\Users\Administrator\Downloads\web\OnlineShop\onlineShop\onlineShop\bin\EntityFramework.xml
+C:\Users\Administrator\Downloads\web\OnlineShop\onlineShop\onlineShop\bin\EntityFramework.SqlServer.xml
+C:\Users\Administrator\Downloads\web\OnlineShop\onlineShop\onlineShop\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Administrator\Downloads\web\OnlineShop\onlineShop\onlineShop\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Administrator\Downloads\web\OnlineShop\onlineShop\onlineShop\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Administrator\Downloads\web\OnlineShop\onlineShop\onlineShop\bin\Microsoft.Owin.xml
+C:\Users\Administrator\Downloads\web\OnlineShop\onlineShop\onlineShop\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Administrator\Downloads\web\OnlineShop\onlineShop\onlineShop\bin\Microsoft.Owin.Security.xml
+C:\Users\Administrator\Downloads\web\OnlineShop\onlineShop\onlineShop\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Administrator\Downloads\web\OnlineShop\onlineShop\onlineShop\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Administrator\Downloads\web\OnlineShop\onlineShop\onlineShop\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Administrator\Downloads\web\OnlineShop\onlineShop\onlineShop\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Administrator\Downloads\web\OnlineShop\onlineShop\onlineShop\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Administrator\Downloads\web\OnlineShop\onlineShop\onlineShop\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Administrator\Downloads\web\OnlineShop\onlineShop\onlineShop\obj\Debug\onlineShop.csproj.AssemblyReference.cache
+C:\Users\Administrator\Downloads\web\OnlineShop\onlineShop\onlineShop\obj\Debug\onlineShop.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Downloads\web\OnlineShop\onlineShop\onlineShop\obj\Debug\onlineShop.csproj.Up2Date
+C:\Users\Administrator\Downloads\web\OnlineShop\onlineShop\onlineShop\obj\Debug\onlineShop.dll
+C:\Users\Administrator\Downloads\web\OnlineShop\onlineShop\onlineShop\obj\Debug\onlineShop.pdb

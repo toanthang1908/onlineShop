@@ -1,0 +1,217 @@
+﻿@model IQueryable<onlineShop.Models.EF.PhanLoai>
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "Index";
+}
+
+<div id="content">
+
+    <!--========== slider ==========-->
+    <div id="slide-introduct" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators"> 
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <img src="~/assets/client/image/bannersale.png" alt="slider-photo">
+                <div class="carousel-caption">
+                    <h3 class="animated swing">Sale lớn ngày Chiến thắng Điện Biên Phủ</h3>
+                    <p><button class="btn btn-success animated swing">Shop now</button></p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="~/assets/client/image/banner.png" alt="slider-photo">
+                <div class="carousel-caption">
+                    <h3 class="animated swing">Phong cách thời trang thể hiện đẳng cấp</h3>
+                    <p><button class="btn btn-success animated swing">Shop now</button></p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="~/assets/client/image/bannerStussy.jpg" alt="slider-photo">
+                <div class="carousel-caption">
+                    <h3 class="animated swing">Mẫu mã đa dạng, tha hồ mà chọn</h3>
+                    <p><button class="btn btn-success animated swing">Shop now</button></p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#slide-introduct" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a class="right carousel-control" href="#slide-introduct" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+
+
+    </div>
+    <!--========== end slider ==========-->
+    <!--========== Fashion for men ==========-->
+    <div id="men">
+        <div class="container">
+            <!--========== title-floor ==========-->
+            <div class="row title-floor">
+                <div class="col-xs-3">
+                    <p class="text-center dropdown-toggle" data-toggle="dropdown"><b>Thời Trang Nam </b></p>
+                    @*<div class="dropdown-menu animated flipInX">
+                        <div class="menu-top">
+                            <div class="col1">
+                                <ul>
+                                    <li><a href="@Url.Action("DanhSachSanPham", "DanhSachSP", new { @doituong = "Nam"})">Tất cả</a></li>
+                                    @foreach (var item in ViewBag.PhanLoaiNam)
+                                    {
+                                        <li><a href="@Url.Action("DanhSachSanPham", "DanhSachSP", new { @doituong = "Nam", @mapl = @item.MaPL})">@item.TenPL</a></li>
+                                    }
+                                </ul>
+                            </div>
+                            <div class="col1">
+                                <img src="~/assets/client/image/me1.png" class="img-responsive" alt="">
+                            </div>
+                        </div>
+                    </div>*@
+                </div>
+                @*<div class="col-xs-1">
+                    <div class="floor-number">
+                        <img src="~/assets/client/image/men.png" alt="logo-men" width="40" height="40">
+                    </div>
+                </div>*@
+            </div>
+            <!--========== end title-floor ==========-->
+            <!--========== top products ==========-->
+            <div class="row top-products">
+                <div class="list-items">
+                    <h5 class="text-center"><b>Sản phẩm nổi bật</b></h5>
+                  @Html.Action("topProductMen", "Home")
+                </div>
+            </div>
+            <!--========== end top products ==========-->
+        </div>
+    </div>
+    <!--========== end Fashion for men ==========-->
+    <!--========== Fashion for women ==========-->
+    <div id="women">
+        <div class="container">
+            <!--========== title-floor ==========-->
+            <div class="row title-floor">
+                <div class="col-xs-3">
+                    <p class="text-center dropdown-toggle" data-toggle="dropdown"><b>Thời Trang Nữ</b></p>
+                    @*<div class="dropdown-menu animated flipInX">
+                        <div class="menu-top ">
+                            <div class="col1">
+                                <ul>
+                                    <li><a href="@Url.Action("DanhSachSanPham", "DanhSachSP", new { @doituong = "Nữ"})">Tất cả</a></li>
+                                    @foreach (var item in ViewBag.PhanLoaiNu)
+                                    {
+                                        <li><a href="@Url.Action("DanhSachSanPham", "DanhSachSP", new { @doituong = "Nữ", @MaPL = @item.MaPL})">@item.TenPL</a></li>
+                                    }
+                                </ul>
+                            </div>
+                            <div class="col1">
+                                <img src="~/assets/client/image/me.png" class="img-responsive" alt="">
+                            </div>
+                        </div>
+                    </div>*@
+                </div>
+                @*<div class="col-xs-1">
+                    <div class="floor-number">
+                        <img src="~/assets/client/image/women.png" alt="logo-men" width="40" height="40">
+                    </div>
+                </div>*@
+            </div>
+            <!--========== end title-floor ==========-->
+            <!--========== top products ==========-->
+            <div class="row top-products">
+                <div class="list-items">
+                    <h5 class="text-center"><b>Sản phẩm nổi bật</b></h5>
+                    @Html.Action("topProductWomen", "Home")
+
+                </div>
+            </div>
+            <!--========== end top products ==========-->
+        </div>
+    </div>
+    <!--========== end Fashion for women ==========-->
+    <!--========== why us ==========-->
+    <!--<div class="why-us">
+        <div class="container">
+            <h3 class="text-center">Tại sao bạn nên mua hàng của chúng tôi?</h3>
+            <div class="row">
+                <div class="col-md-4">-->
+                    @*<img src="~/assets/client/image/why1.png">*@
+                    <!--<h5><b>Đa dạng về mẫu mã và chủng loại</b></h5>-->
+                    @*<div class="text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis voluptatibus eius labore nulla, voluptatum illum!
+                    </div>*@
+                <!--</div>
+                <div class="col-md-4">-->
+                    @*<img src="~/assets/client/image/why2.png">*@
+                    <!--<h5><b>Phong cách chuyên ngiệp</b></h5>-->
+                    @*<div class="text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis voluptatibus eius labore nulla
+                    </div>*@
+                <!--</div>
+                <div class="col-md-4">-->
+                    @*<img src="~/assets/client/image/why3.png">*@
+                    <!--<h5><b>Giá cả phải chăng</b></h5>-->
+                    @*<div class="text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis voluptatibus eius labore nulla, voluptatum illum!
+                    </div>*@
+                <!--</div>
+            </div>
+        </div>
+    </div>-->
+    <!--========== end why us ==========-->
+    <!--========== how it works ==========-->
+    <div class="how-it-works" id="huongdan">
+        <div class="container">
+            <h3 class="text-center">Hướng dẫn mua hàng</h3>
+            <p class="text-center"><b>Everything is very simple!</b></p>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="icon-p">
+                        <i class="fa fa-check"></i>
+                    </div>
+                    <div class="text-p text-center">
+                        <h5><b>1.Chọn sản phẩm</b></h5>
+                        <br>
+                        
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="icon-p">
+                        <i class="fa fa-cart-arrow-down "></i>
+                    </div>
+                    <div class="text-p text-center">
+                        <h5><b>2.Thêm vào giỏ hàng</b></h5>
+                        
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="icon-p">
+                        <i class="fa fa-phone-square "></i>
+                    </div>
+                    <div class="text-p text-center">
+                        <h5><b>3.Xác nhận đơn hàng</b></h5>
+                        
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="icon-p">
+                        <i class="fa fa-gift"></i>
+                    </div>
+                    <div class="text-p text-center">
+                        <h5><b>4.Nhận sản phẩm</b></h5>
+                        <br>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--========== end how it works ==========-->
+</div> <!-- /content -->

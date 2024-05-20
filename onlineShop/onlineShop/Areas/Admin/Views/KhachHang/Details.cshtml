@@ -1,0 +1,75 @@
+﻿@model onlineShop.Models.EF.KhachHang
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Areas/Admin/Views/Shared/_AdLayout.cshtml";
+}
+
+<h2>CHI TIẾT</h2>
+
+<div>
+    <h4>Khách Hàng</h4>
+    <hr />
+  
+    <dl class="dl-horizontal">
+        <dt>
+            Họ Tên
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.HoTenK)
+         
+        </dd>
+
+        <dt>
+            Ngày Sinh
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NgaySinhK)
+        </dd>
+
+        <dt>
+            Giới Tính
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.GioiTinhK)
+        </dd>
+
+        <dt>
+            Địa Chỉ
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DiaChiK)
+        </dd>
+
+        <dt>
+            Email
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.EmailK)
+        </dd>
+
+        <dt>
+            SĐT
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SDTK)
+        </dd>
+
+        <dt>
+            Tên Tài Khoản
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TenTKK)
+        </dd>
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Back to List", "List")
+</p>

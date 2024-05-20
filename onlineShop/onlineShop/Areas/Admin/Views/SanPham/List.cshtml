@@ -1,0 +1,85 @@
+﻿@model IEnumerable<onlineShop.Models.EF.SanPham>
+
+@{
+    ViewBag.Title = "List";
+    Layout = "~/Areas/Admin/Views/Shared/_AdLayout.cshtml";
+}
+
+<h2>DANH SÁCH</h2>
+<br />
+<p>
+    @Html.ActionLink("Create New", "Create",null,new {@class="btn btn-success" })
+</p>
+<br />
+<table class="table" border="1">
+    <tr>
+        <th>
+            Tên PL
+        </th>
+        <th>
+            Mã SP
+        </th>
+        <th>
+            Tên SP
+        </th>
+        <th>
+            Đối tượng
+        </th>
+        <th>
+            Giá Cũ
+        </th>
+        <th>
+            Giá Mới
+        </th>
+        <th>
+            Giới Thiệu SP
+        </th>
+        <th>
+            Số Lượng
+        </th>
+        <th>
+            Ảnh
+        </th>
+        <th>Action</th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.PhanLoai.TenPL)
+                
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MaSP)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TenSP)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DoiTuong)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.GiaCu)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.GiaMoi)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.GioiThieuSP)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Soluong)
+            </td>
+            <td>
+                <img src="@item.Anh" height="80" width="80" />
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { @MaSP = item.MaSP }, new {@class="btn btn-info" }) |
+                @Html.ActionLink("Details", "Details", new { @MaSP = item.MaSP }, new { @class = "btn btn-warning" }) |
+                @Html.ActionLink("Delete", "Delete", new { @MaSP = item.MaSP }, new { @class = "btn btn-danger" })
+            </td>
+        </tr>
+    }
+
+</table>

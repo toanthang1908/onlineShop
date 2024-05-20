@@ -1,0 +1,133 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Administrator\\Downloads\\web\\OnlineShop\\onlineShop\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B1635916-7B16-4851-847B-7904D7FCE0E4}|onlineShop\\onlineShop.csproj|c:\\users\\administrator\\downloads\\web\\onlineshop\\onlineshop\\onlineshop\\models\\dao\\nhanviendao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1635916-7B16-4851-847B-7904D7FCE0E4}|onlineShop\\onlineShop.csproj|solutionrelative:onlineshop\\models\\dao\\nhanviendao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1635916-7B16-4851-847B-7904D7FCE0E4}|onlineShop\\onlineShop.csproj|C:\\Users\\Administrator\\Downloads\\web\\OnlineShop\\onlineShop\\onlineshop\\assets\\admin\\css\\stylead.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{B1635916-7B16-4851-847B-7904D7FCE0E4}|onlineShop\\onlineShop.csproj|solutionrelative:onlineshop\\assets\\admin\\css\\stylead.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1635916-7B16-4851-847B-7904D7FCE0E4}|onlineShop\\onlineShop.csproj|C:\\Users\\Administrator\\Downloads\\web\\OnlineShop\\onlineShop\\onlineshop\\assets\\admin\\css\\custom.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{B1635916-7B16-4851-847B-7904D7FCE0E4}|onlineShop\\onlineShop.csproj|solutionrelative:onlineshop\\assets\\admin\\css\\custom.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1635916-7B16-4851-847B-7904D7FCE0E4}|onlineShop\\onlineShop.csproj|C:\\Users\\Administrator\\Downloads\\web\\OnlineShop\\onlineShop\\onlineshop\\assets\\admin\\css\\clndr.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{B1635916-7B16-4851-847B-7904D7FCE0E4}|onlineShop\\onlineShop.csproj|solutionrelative:onlineshop\\assets\\admin\\css\\clndr.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1635916-7B16-4851-847B-7904D7FCE0E4}|onlineShop\\onlineShop.csproj|C:\\Users\\Administrator\\Downloads\\web\\OnlineShop\\onlineShop\\onlineshop\\assets\\admin\\css\\animate.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{B1635916-7B16-4851-847B-7904D7FCE0E4}|onlineShop\\onlineShop.csproj|solutionrelative:onlineshop\\assets\\admin\\css\\animate.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1635916-7B16-4851-847B-7904D7FCE0E4}|onlineShop\\onlineShop.csproj|C:\\Users\\Administrator\\Downloads\\web\\OnlineShop\\onlineShop\\onlineshop\\areas\\admin\\views\\homead\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B1635916-7B16-4851-847B-7904D7FCE0E4}|onlineShop\\onlineShop.csproj|solutionrelative:onlineshop\\areas\\admin\\views\\homead\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1635916-7B16-4851-847B-7904D7FCE0E4}|onlineShop\\onlineShop.csproj|C:\\Users\\Administrator\\Downloads\\web\\OnlineShop\\onlineShop\\onlineshop\\assets\\admin\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{B1635916-7B16-4851-847B-7904D7FCE0E4}|onlineShop\\onlineShop.csproj|solutionrelative:onlineshop\\assets\\admin\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NhanVienDao.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Downloads\\web\\OnlineShop\\onlineShop\\onlineShop\\Models\\DAO\\NhanVienDao.cs",
+              "RelativeDocumentMoniker": "onlineShop\\Models\\DAO\\NhanVienDao.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Downloads\\web\\OnlineShop\\onlineShop\\onlineShop\\Models\\DAO\\NhanVienDao.cs",
+              "RelativeToolTip": "onlineShop\\Models\\DAO\\NhanVienDao.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAawCUAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T11:55:09.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "custom.css",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Downloads\\web\\OnlineShop\\onlineShop\\onlineShop\\assets\\admin\\css\\custom.css",
+              "RelativeDocumentMoniker": "onlineShop\\assets\\admin\\css\\custom.css",
+              "ToolTip": "C:\\Users\\Administrator\\Downloads\\web\\OnlineShop\\onlineShop\\onlineShop\\assets\\admin\\css\\custom.css",
+              "RelativeToolTip": "onlineShop\\assets\\admin\\css\\custom.css",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAABkAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-05-12T13:40:47.787Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "animate.css",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Downloads\\web\\OnlineShop\\onlineShop\\onlineShop\\assets\\admin\\css\\animate.css",
+              "RelativeDocumentMoniker": "onlineShop\\assets\\admin\\css\\animate.css",
+              "ToolTip": "C:\\Users\\Administrator\\Downloads\\web\\OnlineShop\\onlineShop\\onlineShop\\assets\\admin\\css\\animate.css",
+              "RelativeToolTip": "onlineShop\\assets\\admin\\css\\animate.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-05-12T13:40:19.639Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "styleAD.css",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Downloads\\web\\OnlineShop\\onlineShop\\onlineShop\\assets\\admin\\css\\styleAD.css",
+              "RelativeDocumentMoniker": "onlineShop\\assets\\admin\\css\\styleAD.css",
+              "ToolTip": "C:\\Users\\Administrator\\Downloads\\web\\OnlineShop\\onlineShop\\onlineShop\\assets\\admin\\css\\styleAD.css",
+              "RelativeToolTip": "onlineShop\\assets\\admin\\css\\styleAD.css",
+              "ViewState": "AQIAAB8AAAAAAAAAAIAwwCkAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-05-12T13:37:46.411Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "clndr.css",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Downloads\\web\\OnlineShop\\onlineShop\\onlineShop\\assets\\admin\\css\\clndr.css",
+              "RelativeDocumentMoniker": "onlineShop\\assets\\admin\\css\\clndr.css",
+              "ToolTip": "C:\\Users\\Administrator\\Downloads\\web\\OnlineShop\\onlineShop\\onlineShop\\assets\\admin\\css\\clndr.css",
+              "RelativeToolTip": "onlineShop\\assets\\admin\\css\\clndr.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-05-12T13:40:40.568Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "style.css",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Downloads\\web\\OnlineShop\\onlineShop\\onlineShop\\assets\\admin\\css\\style.css",
+              "RelativeDocumentMoniker": "onlineShop\\assets\\admin\\css\\style.css",
+              "ToolTip": "C:\\Users\\Administrator\\Downloads\\web\\OnlineShop\\onlineShop\\onlineShop\\assets\\admin\\css\\style.css",
+              "RelativeToolTip": "onlineShop\\assets\\admin\\css\\style.css",
+              "ViewState": "AQIAAKEOAAAAAAAAAIAwwC0OAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-05-12T13:34:08.944Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Downloads\\web\\OnlineShop\\onlineShop\\onlineShop\\Areas\\Admin\\Views\\HomeAd\\Login.cshtml",
+              "RelativeDocumentMoniker": "onlineShop\\Areas\\Admin\\Views\\HomeAd\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Administrator\\Downloads\\web\\OnlineShop\\onlineShop\\onlineShop\\Areas\\Admin\\Views\\HomeAd\\Login.cshtml",
+              "RelativeToolTip": "onlineShop\\Areas\\Admin\\Views\\HomeAd\\Login.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAA0AAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-12T12:41:44.795Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

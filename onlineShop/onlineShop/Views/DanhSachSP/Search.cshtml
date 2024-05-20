@@ -1,0 +1,30 @@
+﻿@model IEnumerable<onlineShop.Models.EF.SanPham>
+
+@{
+    ViewBag.Title = "Search";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h5 style="text-align: center; color: #19186d">KẾT QUẢ</h5>
+<hr/>
+<div class="container">
+    <div class="section group">
+        @foreach (var item in Model)
+        {
+            <div class="col-md-3">
+                <a href="@Url.Action("XemChiTiet", "ChiTietSanPham", new { @MaSP = item.MaSP, @TenSP = item.TenSP })">
+                    <div class="thumbnail">
+                        <img src=@item.Anh alt="@item.TenSP">
+                        <div class="">
+                            <p>@item.TenSP</p>
+                            <p class="">@item.GiaMoi VNĐ</p>
+                        </div>
+                        <div class="btn-buy">
+                            <input type="button" class="btn btn-success" value="XEM CHI TIẾT" onclick="window.location.href='@Url.Action("XemChiTiet", "ChiTietSanPham", new { @MaSP = item.MaSP, @TenSP = item.TenSP })'" /><b></b>
+
+                        </div>
+                    </div>
+                </a>
+            </div> <!-- end 1 items -->
+        }
+    </div>
+</div>

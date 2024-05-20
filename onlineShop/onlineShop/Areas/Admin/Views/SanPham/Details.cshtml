@@ -1,0 +1,83 @@
+﻿@model onlineShop.Models.EF.SanPham
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Areas/Admin/Views/Shared/_AdLayout.cshtml";
+}
+
+<h2>CHI TIẾT</h2>
+
+<div>
+    <h4>SanPham</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.TenSP)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TenSP)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DoiTuong)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DoiTuong)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.GiaCu)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.GiaCu)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.GiaMoi)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.GiaMoi)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.GioiThieuSP)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.GioiThieuSP)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Soluong)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Soluong)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Anh)
+        </dt>
+
+        <dd>
+            <img src=@Model.Anh width="80" height=" 80" />
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.MaPL)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MaPL)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @*@Html.ActionLink("Edit", "Edit", new { id = Model.MaSP }) |*@
+    @Html.ActionLink("Back to List", "List")
+</p>

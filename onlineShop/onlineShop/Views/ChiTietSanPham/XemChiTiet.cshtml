@@ -1,0 +1,114 @@
+﻿@model onlineShop.Models.EF.SanPham
+@{
+    ViewBag.Title = "XemChiTiet";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div id="content-oneproduct">
+    <div class="container">
+        <!-- ===== Tên sản phẩm ===== -->
+        <div class="product-name">
+            <div class="row">
+                <h5 id="name-item"><b>@Model.TenSP</b></h5>
+                <a href="#" id="share-face"><i class="fa fa-facebook-official"></i> Chia sẻ</a>
+            </div>
+        </div>
+        <!-- ===== /Tên sản phẩm ===== -->
+        <div class="row chi_tiet">
+            <!-- ===== Ảnh sản phẩm ===== -->
+            <div class="col-md-4">
+                <div id="image-product">
+                    <img src= @Model.Anh alt="@Model.TenSP">
+                </div>
+            </div>
+            <!-- ===== /Ảnh sản phẩm ===== -->
+            <!-- ===== Thông tin sản phẩm -->
+            <div class="col-md-4">
+                <div class="tt-sp">
+                    <ul>
+                        <li>Sản phẩm được làm từ nilon chất lượng cao của Trung Quốc</li>
+                        <li>Màu sắc đa dạng phong phú</li>
+                        <li>Thân thiện với môi trường</li>
+                        <li>Không gây hại đến sức khỏe người sử dụng</li>
+                    </ul>
+                </div>
+                <div class="gia">
+                    <h5>@Model.GiaMoi VNĐ</h5>
+                </div>
+                <div class="btn-mua">
+                    <button class="btn btn-success" id="btnInsert" onclick="window.location.href='@Url.Action("AddItem", "Cart", new { @MaSP = @Model.MaSP, @SoLuong = 1 })'"><b>THÊM VÀO GIỎ HÀNG</b></button>
+                </div>
+            </div>
+            <!-- ===== /Thông tin sản phẩm =====-->
+        </div> <!-- /end row chi-tiet -->
+        <h5 class="text-center">CÓ THỂ BẠN QUAN TÂM</h5>
+
+        <!-- ===== slide sp tương tự =====-->
+        <div class="row">
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+
+                        @foreach (var item in ViewBag.SanPhamCungLoai)
+                        {
+                            <div class="col-md-3">
+                                <a href="@Url.Action("XemChiTiet", "ChiTietSanPham", new { @MaSP = item.MaSP, @TenSP = item.TenSP })">
+                                    <div class="thumbnail">
+                                        <img src=@item.Anh alt="@item.TenSP">
+                                        <div class="">
+                                            <p>@item.TenSP</p>
+                                            <p class="">@item.GiaMoi VNĐ</p>
+                                        </div>
+                                        <div class="btn-buy">
+                                            <button type="button" class="btn btn-success" onclick="window.location.href='@Url.Action("XemChiTiet", "ChiTietSanPham", new { @MaSP = item.MaSP, @TenSP = item.TenSP })'"><b>XEM CHI TIẾT</b></button>
+
+                                        </div>
+                                    </div>
+                                </a>
+                            </div> <!-- end 1 items -->
+                        }
+
+                    </div>
+                    <div class="item">
+                        @foreach (var item in ViewBag.SanPhamCungLoai)
+                        {
+                            <div class="col-md-3">
+                                <a href="@Url.Action("XemChiTiet", "ChiTietSanPham", new { @MaSP = item.MaSP, @TenSP = item.TenSP })">
+                                    <div class="thumbnail">
+                                        <img src= @item.Anh alt= @item.TenSP>
+                                        <div class="">
+                                            <p>@item.TenSP</p>
+                                            <p class="">@item.GiaMoi VNĐ</p>
+                                        </div>
+                                        <div class="btn-buy">
+                                            <button type="button" class="btn btn-success" onclick="window.location.href='@Url.Action("XemChiTiet", "ChiTietSanPham", new { @MaSP = item.MaSP, @TenSP = item.TenSP })'"><b>XEM CHI TIẾT</b></button>
+
+                                        </div>
+                                    </div>
+                                </a>
+                            </div> <!-- end 1 items -->
+                        }
+                    </div>
+                </div>
+
+                <!-- Controls -->
+                <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+        <!-- ===== end slide sp tương tự =====-->
+    </div>
+</div>
